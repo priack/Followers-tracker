@@ -16,6 +16,7 @@ PROJECT_FIELDS = [
     "campaign_start",
     "campaign_end",
     "status",  # upcoming | live | ended | gone
+    "follower_count",  # latest seen; follower snapshots are written only when it changes
     "first_seen_upcoming_at",
     "launch_date_first_seen_at",
     "first_seen_live_at",
@@ -27,6 +28,15 @@ FOLLOWER_SNAPSHOT_FIELDS = [
     "project_url_name",
     "follower_count",
     "campaign_start",
+]
+
+RUN_FIELDS = [
+    "ts_utc",
+    "upcoming_ok",
+    "active_ok",
+    "upcoming_projects",
+    "live_projects",
+    "follower_rows_written",
 ]
 
 CAMPAIGN_SNAPSHOT_FIELDS = [

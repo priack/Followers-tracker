@@ -5,7 +5,7 @@ import sys
 from datetime import datetime, timezone
 
 from tracker import api
-from tracker.store import CAMPAIGN_SNAPSHOT_FIELDS, FOLLOWER_SNAPSHOT_FIELDS, PROJECT_FIELDS, Store
+from tracker.store import CAMPAIGN_SNAPSHOT_FIELDS, FOLLOWER_SNAPSHOT_FIELDS, PROJECT_FIELDS, RUN_FIELDS, Store
 
 
 def _parse_ts(value):
@@ -47,23 +47,32 @@ def update(projects, ts, upcoming, active):
     for item in upcoming or []:
         project = _project(projects, item, ts)
         start = _value(item, "campaignStartDate")
+        followers = _value(item, "followerCount")
+        # Follower snapshots are only written on change; data/runs/ records which hours were checked.
+        changed = (
+            not project.get("first_seen_upcoming_at")
+            or str(followers) != project.get("follower_count", "")
+            or start != project.get("campaign_start", "")
+        )
         project.update(
             published_date=_value(item, "publishedDate"),
             campaign_start=start,
+            follower_count=followers,
             status="upcoming",
         )
         if not project.get("first_seen_upcoming_at"):
             project["first_seen_upcoming_at"] = ts
         if start and not project.get("launch_date_first_seen_at"):
             project["launch_date_first_seen_at"] = ts
-        follower_rows.append(
-            {
-                "ts_utc": ts,
-                "project_url_name": project["project_url_name"],
-                "follower_count": _value(item, "followerCount"),
-                "campaign_start": start,
-            }
-        )
+        if changed:
+            follower_rows.append(
+                {
+                    "ts_utc": ts,
+                    "project_url_name": project["project_url_name"],
+                    "follower_count": followers,
+                    "campaign_start": start,
+                }
+            )
 
     for item in active or []:
         project = _project(projects, item, ts)
@@ -73,6 +82,7 @@ def update(projects, ts, upcoming, active):
             goal=_value(item, "campaignGoal"),
             campaign_start=start,
             campaign_end=_value(item, "campaignEndDate"),
+            follower_count=_value(item, "followerCount"),
             status="live",
         )
         if not project.get("first_seen_live_at"):
@@ -134,8 +144,28 @@ def main(argv=None):
     store.save_projects(projects)
     store.append_snapshots("follower_snapshots", FOLLOWER_SNAPSHOT_FIELDS, ts, follower_rows)
     store.append_snapshots("campaign_snapshots", CAMPAIGN_SNAPSHOT_FIELDS, ts, campaign_rows)
+    upcoming_count = "" if results["upcoming"] is None else len(results["upcoming"])
+    live_count = "" if results["active"] is None else len(results["active"])
+    store.append_snapshots(
+        "runs",
+        RUN_FIELDS,
+        ts,
+        [
+            {
+                "ts_utc": ts,
+                "upcoming_ok": results["upcoming"] is not None,
+                "active_ok": results["active"] is not None,
+                "upcoming_projects": upcoming_count,
+                "live_projects": live_count,
+                "follower_rows_written": len(follower_rows),
+            }
+        ],
+    )
 
-    print(f"{ts}: {len(follower_rows)} upcoming, {len(campaign_rows)} live, {len(projects)} projects total")
+    print(
+        f"{ts}: {upcoming_count or 0} upcoming ({len(follower_rows)} follower changes), "
+        f"{len(campaign_rows)} live, {len(projects)} projects total"
+    )
     return 0
 
 

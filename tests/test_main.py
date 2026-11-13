@@ -1,6 +1,8 @@
+import tempfile
 import unittest
 
 from tracker.main import update
+from tracker.store import Store
 
 UPCOMING = {
     "projectUrlName": "soon-game",
@@ -57,6 +59,25 @@ class UpdateTest(unittest.TestCase):
         self.assertEqual(project["launch_date_first_seen_at"], "2026-11-02T00:00:00Z")
         self.assertEqual(project["first_seen_live_at"], "2026-11-10T15:00:00Z")
         self.assertEqual(project["status"], "live")
+
+    def test_follower_rows_only_on_change_across_saved_runs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(tmp)
+
+            def run(ts, **changes):
+                projects = store.load_projects()
+                followers, _ = update(projects, ts, [dict(UPCOMING, **changes)], [])
+                store.save_projects(projects)
+                return [(row["follower_count"], row["campaign_start"]) for row in followers]
+
+            self.assertEqual(run("2026-11-01T00:00:00Z"), [(100, "")])  # first sighting
+            self.assertEqual(run("2026-11-01T01:00:00Z"), [])  # unchanged
+            self.assertEqual(run("2026-11-01T02:00:00Z", followerCount=105), [(105, "")])
+            self.assertEqual(run("2026-11-01T03:00:00Z", followerCount=105), [])
+            self.assertEqual(
+                run("2026-11-01T04:00:00Z", followerCount=105, campaignStartDate="2026-12-01T15:00:00Z"),
+                [(105, "2026-12-01T15:00:00Z")],
+            )
 
     def test_status_changes_only_when_both_lists_fetched(self):
         projects = {}
