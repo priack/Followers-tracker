@@ -1,4 +1,8 @@
-"""Load the output of browser/collect_rewards.js into project_details.csv and reward_snapshots/."""
+"""Load the output of browser/collect_rewards.js into project_details.csv and reward_snapshots/.
+
+The browser sends full rows only for rewards it has not sent before (or whose static fields changed);
+the rest arrive as counts and are completed from data/reward_catalog.csv.
+"""
 
 import argparse
 import csv
@@ -17,6 +21,18 @@ DETAIL_FIELDS = [
     "tags",
     "min_players",
     "max_players",
+    "updated_at",
+]
+
+CATALOG_FIELDS = [
+    "product_id",
+    "project_url_name",
+    "reward_name",
+    "price",
+    "effective_price",
+    "is_featured",
+    "is_most_popular",
+    "has_limited_stock",
     "updated_at",
 ]
 
@@ -64,61 +80,87 @@ def fnv1a(rows):
 
 
 def validate(payload):
-    if payload.get("version") != 1:
+    if payload.get("version") != 2:
         raise InvalidPayload(f"unsupported version {payload.get('version')!r}")
-    detail_rows = payload["details"]["rows"]
-    reward_rows = payload["rewards"]["rows"]
+    tables = [payload[name]["rows"] for name in ("details", "rewards", "counts")]
     actual = {
-        "details": len(detail_rows),
-        "rewards": len(reward_rows),
-        "fnv1a": fnv1a([detail_rows, reward_rows]),
+        "details": len(tables[0]),
+        "rewards": len(tables[1]),
+        "counts": len(tables[2]),
+        "fnv1a": fnv1a(tables),
     }
     if actual != payload["check"]:
         raise InvalidPayload(f"checksum mismatch: expected {payload['check']}, got {actual}")
-    return _table(payload, "details"), _table(payload, "rewards")
+    return _table(payload, "details"), _table(payload, "rewards"), _table(payload, "counts")
 
 
-def build_rows(payload, known_keys):
-    """Return (detail_rows, reward_rows); project keys are matched case-insensitively to projects.csv."""
-    details, rewards = validate(payload)
+def build_rows(payload, projects, catalog):
+    """Return (detail_rows, reward_rows, catalog_rows).
+
+    `projects` is projects.csv keyed by project_url_name (matched case-insensitively and used for
+    campaign start dates); `catalog` is reward_catalog.csv keyed by product_id.
+    """
+    details, rewards, counts = validate(payload)
     ts = payload["ts_utc"]
-    by_lower = {key.lower(): key for key in known_keys}
+    by_lower = {key.lower(): key for key in projects}
 
     def key(url_name):
         return by_lower.get(url_name.lower(), url_name)
 
-    starts = {}
+    starts = {key: project.get("campaign_start") for key, project in projects.items()}
     detail_rows = []
     for d in details:
-        starts[d["project_url_name"]] = d["campaign_start"]
         row = {field: _cell(d.get(field)) for field in DETAIL_FIELDS}
         row["project_url_name"] = key(d["project_url_name"])
         row["updated_at"] = ts
         detail_rows.append(row)
+        if d["campaign_start"]:
+            starts[row["project_url_name"]] = d["campaign_start"]
+
+    catalog_rows = []
+    snapshots = []
+    for r in rewards:
+        row = {field: _cell(r.get(field)) for field in CATALOG_FIELDS}
+        row.update(project_url_name=key(r["project_url_name"]), updated_at=ts)
+        catalog_rows.append(row)
+        snapshots.append((row, r["purchased_count"], r["remaining_stock"]))
+
+    missing = [str(c["product_id"]) for c in counts if str(c["product_id"]) not in catalog]
+    if missing:
+        raise InvalidPayload(
+            f"{len(missing)} rewards are not in reward_catalog.csv (e.g. {', '.join(missing[:3])}); "
+            "the browser's memory is out of sync, clear it and collect again"
+        )
+    for c in counts:
+        snapshots.append((catalog[str(c["product_id"])], c["purchased_count"], c["remaining_stock"]))
 
     reward_rows = []
-    for r in rewards:
-        start = starts.get(r["project_url_name"])
+    for static, purchased, remaining in snapshots:
+        start = starts.get(static["project_url_name"])
         hours = round((_parse_ts(ts) - _parse_ts(start)).total_seconds() / 3600, 2) if start else ""
-        row = {field: _cell(r.get(field)) for field in REWARD_SNAPSHOT_FIELDS}
-        row.update(ts_utc=ts, project_url_name=key(r["project_url_name"]), hours_since_launch=hours)
+        row = {field: static.get(field, "") for field in REWARD_SNAPSHOT_FIELDS}
+        row.update(ts_utc=ts, hours_since_launch=hours, purchased_count=_cell(purchased),
+                   remaining_stock=_cell(remaining))
         reward_rows.append(row)
 
-    return detail_rows, reward_rows
+    return detail_rows, reward_rows, catalog_rows
 
 
-def save_details(store, detail_rows):
-    path = store.data_dir / "project_details.csv"
-    existing = {}
-    if path.exists():
-        with path.open(newline="", encoding="utf-8") as f:
-            existing = {row["project_url_name"]: row for row in csv.DictReader(f)}
-    existing.update({row["project_url_name"]: row for row in detail_rows})
+def _load_csv(path, key):
+    if not path.exists():
+        return {}
+    with path.open(newline="", encoding="utf-8") as f:
+        return {row[key]: row for row in csv.DictReader(f)}
+
+
+def _upsert_csv(path, fields, key, rows):
+    existing = _load_csv(path, key)
+    existing.update({str(row[key]): row for row in rows})
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=DETAIL_FIELDS)
+        writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
-        writer.writerows(sorted(existing.values(), key=lambda row: row["project_url_name"]))
+        writer.writerows(sorted(existing.values(), key=lambda row: str(row[key])))
 
 
 def main(argv=None):
@@ -131,17 +173,24 @@ def main(argv=None):
         payload = json.load(f)
 
     store = Store(args.data_dir)
+    catalog_path = store.data_dir / "reward_catalog.csv"
     try:
-        detail_rows, reward_rows = build_rows(payload, store.load_projects().keys())
+        detail_rows, reward_rows, catalog_rows = build_rows(
+            payload, store.load_projects(), _load_csv(catalog_path, "product_id")
+        )
     except InvalidPayload as e:
         print(f"Rejected {args.input}: {e}", file=sys.stderr)
         return 1
 
-    save_details(store, detail_rows)
+    _upsert_csv(store.data_dir / "project_details.csv", DETAIL_FIELDS, "project_url_name", detail_rows)
+    _upsert_csv(catalog_path, CATALOG_FIELDS, "product_id", catalog_rows)
     store.append_snapshots("reward_snapshots", REWARD_SNAPSHOT_FIELDS, payload["ts_utc"], reward_rows)
     for error in payload.get("errors", []):
         print(f"Warning: {error}", file=sys.stderr)
-    print(f"{payload['ts_utc']}: {len(detail_rows)} projects, {len(reward_rows)} rewards")
+    print(
+        f"{payload['ts_utc']}: {len(reward_rows)} rewards ({len(catalog_rows)} new or changed), "
+        f"{len(detail_rows)} project details updated"
+    )
     return 0
 
 
