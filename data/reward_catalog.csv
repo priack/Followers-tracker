@@ -1,248 +1,258 @@
 product_id,project_url_name,reward_name,price,effective_price,is_featured,is_most_popular,has_limited_stock,updated_at
-102162,starheroes,Immortality,11000,11000,False,False,True,2026-11-15T07:21:29Z
-105138,microcosm,Microcosm Base Game,55,55,False,False,False,2026-11-15T07:21:29Z
-106084,microcosm,Professor Bundle,295,250,False,False,False,2026-11-15T07:21:29Z
-106085,microcosm,Senior Scientist Bundle,125,99,True,False,False,2026-11-15T07:21:29Z
-106086,microcosm,Research Assistant Bundle,102,84,False,False,False,2026-11-15T07:21:29Z
-119041,somnonautas,Somnonautas Digital,18.27,16.35,False,False,False,2026-11-15T07:21:29Z
-119044,somnonautas,Somnautas físico,35.58,33.65,False,False,False,2026-11-15T07:21:29Z
-119053,somnonautas,Pack Soñador Plácido,50,50,False,False,False,2026-11-15T07:21:29Z
-119054,somnonautas,Pack Soñador Lucido,99.04,99.04,True,False,False,2026-11-15T07:21:29Z
-119056,somnonautas,Pack Metasoñador,120.2,120.2,False,False,False,2026-11-15T07:21:29Z
-119057,somnonautas,Pack Somnonauta,151.93,151.93,False,False,False,2026-11-15T07:21:29Z
-119257,starheroes,Delta Star Hero,279,251,False,False,False,2026-11-15T07:21:29Z
-119258,starheroes,Gamma Star Hero,561,504,False,False,False,2026-11-15T07:21:29Z
-119259,perilous-frontiers,The Eerie Arch - Desert Bundle (Painted),692,579,False,False,False,2026-11-15T07:21:29Z
-119260,perilous-frontiers,Oasis Encampment - Desert Bundle (Painted),1434,1194,False,False,False,2026-11-15T07:21:29Z
-119261,perilous-frontiers,Driftstone Nexus - Desert Bundle (Painted),1608,1334,False,False,False,2026-11-15T07:21:29Z
-119262,perilous-frontiers,The Badlands - Desert Bundle (Painted),2958,2425,False,False,False,2026-11-15T07:21:29Z
-119263,perilous-frontiers,Frozen Forest Camp - Arctic Bundle (Painted),707,591,False,False,False,2026-11-15T07:21:29Z
-119264,perilous-frontiers,Icy Lair - Arctic Bundle (Painted),1625,1351,False,False,False,2026-11-15T07:21:29Z
-119265,perilous-frontiers,Jagged Reach - Arctic Bundle (Painted),1513,1264,False,False,False,2026-11-15T07:21:29Z
-119266,perilous-frontiers,Corrupted Shore - Arctic Bundle (Painted),3243,2664,False,False,False,2026-11-15T07:21:29Z
-119267,perilous-frontiers,Dreadlands Bay - Desert Bundle (Painted),6692,5344,False,False,False,2026-11-15T07:21:29Z
-119268,perilous-frontiers,Everfrost Expanse - Arctic Bundle (Painted),7088,5672,False,False,False,2026-11-15T07:21:29Z
-119611,1806-auerstadt,"EU/UK backer's copy ""1806: Auerstädt""",69.99,49.99,False,False,False,2026-11-15T07:21:29Z
-125935,platform,Gamer - Backer Pledge,7.5,5,False,False,False,2026-11-15T07:21:29Z
-125938,platform,Gamer - Supporter Pledge,15,10,False,False,False,2026-11-15T07:21:29Z
-125940,platform,Gamer - Player Pledge,32.5,20,False,False,False,2026-11-15T07:21:29Z
-125943,platform,Gamer - Patron Pledge,82.5,40,False,False,False,2026-11-15T07:21:29Z
-125947,platform,Gamer - Veteran Pledge,157.5,75,True,False,False,2026-11-15T07:21:29Z
-125949,platform,Gamer - Champion Pledge,265,125,False,False,False,2026-11-15T07:21:29Z
-125952,platform,Gamer - Founding Member Pledge,400,175,False,False,True,2026-11-15T07:21:29Z
-126188,somewhere-else,Buy me a Banana,5,5,False,False,False,2026-11-15T07:21:29Z
-126198,somewhere-else,Early Bird - Somewhere Else,12,12,True,False,True,2026-11-15T07:21:29Z
-126203,somewhere-else,Somewhere Else,16,16,False,False,False,2026-11-15T07:21:29Z
-126206,somewhere-else,Player Two,28,28,False,False,False,2026-11-15T07:21:29Z
-126228,somewhere-else,Name the Sheep,70,70,False,False,True,2026-11-15T07:21:29Z
-126231,somewhere-else,Name the Frog,70,70,False,False,True,2026-11-15T07:21:29Z
-126233,somewhere-else,Name the Mouse,70,70,False,False,True,2026-11-15T07:21:29Z
-126236,somewhere-else,Name the Beagle,100,100,False,False,True,2026-11-15T07:21:29Z
-126239,somewhere-else,Carved in Stone,30,30,False,False,True,2026-11-15T07:21:29Z
-126244,somewhere-else,Someone to Pet,250,250,False,False,True,2026-11-15T07:21:29Z
-126248,somewhere-else,Create a secret lab animal,300,300,False,False,True,2026-11-15T07:21:29Z
-126273,junk-n-gems,The Game,18,18,False,False,False,2026-11-15T07:21:29Z
-126280,junk-n-gems,Friends Pack,36,24,True,False,False,2026-11-15T07:21:29Z
-126463,satisfactory-the-board-game,Standard Pledge,105,70,False,False,False,2026-11-15T07:21:29Z
-126487,satisfactory-the-board-game,Collector's Pledge,365,280,True,False,False,2026-11-15T07:21:29Z
-126752,nk--siege,Support the Siege,5,5,False,False,False,2026-11-15T07:21:29Z
-126753,nk--siege,Early Recruit,15,15,True,False,False,2026-11-15T07:21:29Z
-126754,nk--siege,Alpha Access,50,50,False,False,False,2026-11-15T07:21:29Z
-126756,die-wachter-der-elemente,DIY Printable Content Chapter One,10,5,True,False,False,2026-11-15T07:21:29Z
-126760,dungeon-draw,All The Things Bundle,141,115,True,False,False,2026-11-15T07:21:29Z
-126773,dungeon-draw,Creator Deluxe Bundle,82,64,False,False,False,2026-11-15T07:21:29Z
-126775,dungeon-draw,Collector Deluxe Bundle,82,64,False,False,False,2026-11-15T07:21:29Z
-126779,dungeon-draw,All Our Base Decks,60,36,False,False,False,2026-11-15T07:21:29Z
-126781,dungeon-draw,Base Game Collector,25,18,False,False,False,2026-11-15T07:21:29Z
-126782,dungeon-draw,Educator Bundle,280,175,False,False,False,2026-11-15T07:21:29Z
-126783,dungeon-draw,Creator Retail Edition,200,150,False,False,False,2026-11-15T07:21:29Z
-126784,dungeon-draw,Collector Retail Edition,200,150,False,False,False,2026-11-15T07:21:29Z
-127247,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Esme,100,40,False,False,False,2026-11-15T07:21:29Z
-127260,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Go Around the Other Side of the Mountain,255,200,False,False,False,2026-11-15T07:21:29Z
-127262,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,She Who Must Be Avoided,445,395,False,False,False,2026-11-15T07:21:29Z
-127454,die-wachter-der-elemente,Basic Game plus,85,75,False,False,False,2026-11-15T07:21:29Z
-127466,bug-out-escape-your-paranoia,Bug Out: Core Game,49,49,False,False,False,2026-11-15T07:21:29Z
-127467,bug-out-escape-your-paranoia,Support the Escape,5,5,False,False,False,2026-11-15T07:21:29Z
-127469,bug-out-escape-your-paranoia,Founding Prepper,59,59,True,False,False,2026-11-15T07:21:29Z
-127470,bug-out-escape-your-paranoia,Bunker Buddies: Save $9 vs. two Core Games,98,89,False,False,False,2026-11-15T07:21:29Z
-127570,age-of-skorpa,Age Of Skorpa PrintAndPlay RPG CARD GAME Digital Product Pdf File,3.99,3.99,True,False,False,2026-11-15T07:21:29Z
-127574,agoro-road-and-agoro-camp,Your name in the games,5,5,False,False,False,2026-11-15T07:21:29Z
-127575,agoro-road-and-agoro-camp,Super early bird: both games,45,25,False,False,False,2026-11-15T07:21:29Z
-127759,heroes-of-gravehold,Defender of Gravehold,79,79,False,False,False,2026-11-15T07:21:29Z
-127788,feed-the-kraken-sea-of-shadows,⛵ Expansion - Feed the Kraken: Sea of Shadows Deluxe,67.23,60,True,False,False,2026-11-15T07:21:29Z
-127793,feed-the-kraken-sea-of-shadows,⚓ Base Game - Feed the Kraken Black Box Deluxe,100.84,90,False,False,False,2026-11-15T07:21:29Z
-127813,space-universalis,Space Universalis Adventurer,109,94,True,False,False,2026-11-15T07:21:29Z
-127815,space-universalis,Space Universalis Commander,157,129,False,False,False,2026-11-15T07:21:29Z
-127817,space-universalis,All-in - Space Universalis Lord,196,149,False,False,False,2026-11-15T07:21:29Z
-128187,bug-out-escape-your-paranoia,Founders' Bunker,169,169,False,False,False,2026-11-15T07:21:29Z
-128281,feed-the-kraken-sea-of-shadows,🏝️ Base Game & Expansion Deluxe Bundle,168.07,140,False,False,False,2026-11-15T07:21:29Z
-128295,agoro-road-and-agoro-camp,Early bird: both games,45,35,False,False,False,2026-11-15T07:21:29Z
-128296,agoro-road-and-agoro-camp,A figurine,25,25,False,False,False,2026-11-15T07:21:29Z
-128297,agoro-road-and-agoro-camp,"Amara, 120 mm figurine",29,29,False,False,False,2026-11-15T07:21:29Z
-128298,agoro-road-and-agoro-camp,Figurine and both games,65,65,False,False,False,2026-11-15T07:21:29Z
-128299,agoro-road-and-agoro-camp,Amara and both games,69,69,False,False,False,2026-11-15T07:21:29Z
-128300,agoro-road-and-agoro-camp,Your character in the Agoro Universe: super early bird,500,250,True,False,False,2026-11-15T07:21:29Z
-128388,die-wachter-der-elemente,DIY Full Printable Starter Set,20,15,False,False,False,2026-11-15T07:21:29Z
-128418,agoro-road-and-agoro-camp,Both games,45,45,False,False,False,2026-11-15T07:21:29Z
-128419,agoro-road-and-agoro-camp,Super early bird: Agoro Road,19.99,11,False,False,False,2026-11-15T07:21:29Z
-128420,agoro-road-and-agoro-camp,Early bird: Agoro Road,19.99,13,False,False,False,2026-11-15T07:21:29Z
-128421,agoro-road-and-agoro-camp,Agoro Road,15,15,False,False,False,2026-11-15T07:21:29Z
-128422,agoro-road-and-agoro-camp,Your character in the Agoro Universe,500,500,False,False,False,2026-11-15T07:21:29Z
-128423,agoro-road-and-agoro-camp,Your Story in the Agoro Universe,990,990,False,False,False,2026-11-15T07:21:29Z
-128435,dungeon-draw,Base Game Creator,25,18,False,False,False,2026-11-15T07:21:29Z
-128449,starheroes,Beta Star Hero,1265,1040,False,False,False,2026-11-15T07:21:29Z
-128457,agoro-road-and-agoro-camp,A figurine in stone or wood finish,39,39,False,False,False,2026-11-15T07:21:29Z
-128535,die-wachter-der-elemente,Basic Game,75,65,False,False,False,2026-11-15T07:21:29Z
-128681,spell-tyrants,Core Rules,19,19,False,False,False,2026-11-15T07:21:29Z
-128683,spell-tyrants,Expanded Rules,29,29,False,False,False,2026-11-15T07:21:29Z
-128724,spell-tyrants,Core Digital Collection,35,35,False,False,False,2026-11-15T07:21:29Z
-128777,hagglethorn-hollow-evermaze,Hedge Maze (Digital STL),69,69,False,False,False,2026-11-15T07:21:29Z
-128778,hagglethorn-hollow-evermaze,Stone Maze (Digital STL),69,69,False,False,False,2026-11-15T07:21:29Z
-128779,hagglethorn-hollow-evermaze,All-In Evermaze (Digital STL),109,109,True,False,False,2026-11-15T07:21:29Z
-128781,spell-tyrants,Expanded Digital Collection [Early Bird],45,45,False,False,True,2026-11-15T07:21:29Z
-128782,spell-tyrants,Expanded Digital Collection,49,49,False,False,False,2026-11-15T07:21:29Z
-128783,spell-tyrants,Core Hardcover Collection,59,59,False,False,False,2026-11-15T07:21:29Z
-128785,spell-tyrants,Complete Collection,89,89,True,False,False,2026-11-15T07:21:29Z
-128905,agoro-road-and-agoro-camp,First backers: Agoro Road,19.99,9,False,False,False,2026-11-15T07:21:29Z
-128906,agoro-road-and-agoro-camp,First backers: both games,45,15,False,False,False,2026-11-15T07:21:29Z
-129018,satisfactory-the-board-game,Deluxe Pledge,175,135,False,False,False,2026-11-15T07:21:29Z
-129040,hagglethorn-hollow-evermaze,Back the Hollow,1,1,False,False,False,2026-11-15T07:21:29Z
-129104,keyforge-online,Shard of Hope,40,40,False,False,False,2026-11-15T07:21:29Z
-129140,red-alert-new-world-order,Strike Command - 2 Player Core Game,299,169,False,False,False,2026-11-15T07:21:29Z
-129206,erune---echoes-of-hollow-woods,INTO THE HOLLOW WOODS,133.3,105,False,False,False,2026-11-15T07:21:29Z
-129213,erune---echoes-of-hollow-woods,STARTER PACK,179.17,146,False,False,False,2026-11-15T07:21:29Z
-129216,erune---echoes-of-hollow-woods,ALL THE GAMEPLAY,291.66,238,False,False,False,2026-11-15T07:21:29Z
-129219,erune---echoes-of-hollow-woods,ALL-IN,501.98,413,True,False,False,2026-11-15T07:21:29Z
-129222,panopticon,Fellow Pledge ,59,49,False,False,False,2026-11-15T07:21:29Z
-129248,panopticon,72H Early Bird - Fellow Pledge ,59,49,False,False,False,2026-11-15T07:21:29Z
-129266,panopticon,72H Early Bird - Strategist Pledge,85,65,False,False,False,2026-11-15T07:21:29Z
-129267,panopticon,24H Super Early Bird - Strategist Pledge,85,65,False,False,False,2026-11-15T07:21:29Z
-129274,panopticon,Strategist Pledge,85,69,False,False,False,2026-11-15T07:21:29Z
-129275,panopticon,24H Super Early Bird - Architect Pledge,125,89,False,False,False,2026-11-15T07:21:29Z
-129276,panopticon,72H Early Bird - Architect Pledge,125,89,False,False,False,2026-11-15T07:21:29Z
-129277,panopticon,Architect Pledge,125,99,True,False,False,2026-11-15T07:21:29Z
-129293,eldfall-chronicles-apocrypha,Core Pledge,129,89,False,False,False,2026-11-15T07:21:29Z
-129296,red-alert-new-world-order,STRIKE COMMAND - 2 Player Multiplayer ALL-IN,557,267,True,False,False,2026-11-15T07:21:29Z
-129297,red-alert-new-world-order,JOINT COMMAND - 4 Player Multiplayer ALL-IN,865,415,False,False,False,2026-11-15T07:21:29Z
-129298,red-alert-new-world-order,COALITION COMMAND - 6 Player Multiplayer ALL-IN,1173,523,False,False,False,2026-11-15T07:21:29Z
-129299,red-alert-new-world-order,WORLD DOMINATION – ULTIMATE 6-PLAYER ALL-IN + SOLO + 6-PLAYER 3D MINIATURES,1629,739,False,False,False,2026-11-15T07:21:29Z
-129405,perilous-frontiers,Desert Battlefield Bundle (Painted),578,493,False,False,False,2026-11-15T07:21:29Z
-129406,perilous-frontiers,Arctic Battlefield Bundle (Painted),600,510,False,False,False,2026-11-15T07:21:29Z
-129410,keyforge-online,Hope's Champion,100,100,False,False,False,2026-11-15T07:21:29Z
-129411,keyforge-online,Hope's Vaultkeeper,200,200,True,False,False,2026-11-15T07:21:29Z
-129412,keyforge-online,The Council,600,600,False,False,False,2026-11-15T07:21:29Z
-129414,keyforge-online,Born to Rock,1200,1200,False,False,False,2026-11-15T07:21:29Z
-129422,keyforge-online,Hallafest (Personalized Winning Animation),2000,2000,False,False,True,2026-11-15T07:21:29Z
-129470,wild-conversations,Wild Supporter,5,5,False,False,False,2026-11-15T07:21:29Z
-129472,wild-conversations,Early Bison,29,27,False,False,False,2026-11-15T07:21:29Z
-129474,wild-conversations,One deck,29,29,False,False,False,2026-11-15T07:21:29Z
-129475,wild-conversations,"Keep One, Gift One (most popular)",58,55,True,False,False,2026-11-15T07:21:29Z
-129477,wild-conversations,Holiday T(h)ree,87,79,False,False,False,2026-11-15T07:21:29Z
-129479,wild-conversations,Team Pack,145,129,False,False,False,2026-11-15T07:21:29Z
-129481,wild-conversations,Wild Conversations Workshop,480,480,False,False,False,2026-11-15T07:21:29Z
-129550,agoro-road-and-agoro-camp,First backers: Agoro Camp,49.99,9,False,False,False,2026-11-15T07:21:29Z
-129551,agoro-road-and-agoro-camp,Super early bird: Agoro Camp,49.99,22,False,False,False,2026-11-15T07:21:29Z
-129552,agoro-road-and-agoro-camp,Agoro Camp,39,39,False,False,False,2026-11-15T07:21:29Z
-129553,agoro-road-and-agoro-camp,Early bird: Agoro Camp,49.99,29,False,False,False,2026-11-15T07:21:29Z
-129554,agoro-road-and-agoro-camp,Your character in the Agoro Universe: early bird,350,350,False,False,False,2026-11-15T07:21:29Z
-129598,hagglethorn-hollow-evermaze,Hedge Maze — 70 Unpainted Prints + Hedge Maze STLs,549,549,False,False,True,2026-11-15T07:21:29Z
-129599,hagglethorn-hollow-evermaze,Stone Maze — 46 Unpainted Prints + Stone Maze STLs,649,649,False,False,True,2026-11-15T07:21:29Z
-129600,hagglethorn-hollow-evermaze,Evermaze All-In — 116 Core Unpainted Prints + Bonuses + All STLs,1299,1299,False,False,True,2026-11-15T07:21:29Z
-129605,ashen-verge,Thank You,3,3,False,False,False,2026-11-15T07:21:29Z
-129608,ashen-verge,"Fallen, Early Bird",18,18,False,False,True,2026-11-15T07:21:29Z
-129620,ashen-verge,Fallen,25,25,True,False,False,2026-11-15T07:21:29Z
-129621,ashen-verge,Digital Deluxe,40,40,False,False,False,2026-11-15T07:21:29Z
-129622,ashen-verge,Inner Circle,65,65,False,False,False,2026-11-15T07:21:29Z
-129623,ashen-verge,A Name in the Field of the Fallen,120,120,False,False,True,2026-11-15T07:21:29Z
-129624,ashen-verge,A Monument in the Verge,250,250,False,False,True,2026-11-15T07:21:29Z
-129625,ashen-verge,A Relic of Your Making,400,400,False,False,True,2026-11-15T07:21:29Z
-129626,ashen-verge,Your Portrait in the Verge,750,750,False,False,True,2026-11-15T07:21:29Z
-129627,ashen-verge,A Soul Who Fights Beside You,1500,1500,False,False,True,2026-11-15T07:21:29Z
-129628,ashen-verge,Design a Lesser Demon,3000,3000,False,False,True,2026-11-15T07:21:29Z
-129686,spherechild-vierte-edition,Alle drei Bücher digital (PDF),60,60,False,False,False,2026-11-15T07:21:29Z
-129687,spherechild-vierte-edition,Einstieg in Spherechild - New Edition digital (PDF),30,30,False,False,False,2026-11-15T07:21:29Z
-129690,space-universalis,Digital Pledge,69,49,False,False,False,2026-11-15T07:21:29Z
-129691,bug-out-escape-your-paranoia,Print & Play: File Leak Kit,15,15,False,False,False,2026-11-15T07:21:29Z
-129698,heroes-of-gravehold,Legend of Gravehold,89,89,False,False,False,2026-11-15T07:21:29Z
-129711,true-wind-the-sailing-sim-where-the-boat-is-computed,Deckhand,5,5,False,False,False,2026-11-15T07:21:29Z
-129712,true-wind-the-sailing-sim-where-the-boat-is-computed,Crew,15,15,True,False,False,2026-11-15T07:21:29Z
-129713,true-wind-the-sailing-sim-where-the-boat-is-computed,Skipper,35,35,False,False,False,2026-11-15T07:21:29Z
-129714,true-wind-the-sailing-sim-where-the-boat-is-computed,Navigator,75,75,False,False,False,2026-11-15T07:21:29Z
-129715,true-wind-the-sailing-sim-where-the-boat-is-computed,Sail Name,150,150,False,False,False,2026-11-15T07:21:29Z
-129716,true-wind-the-sailing-sim-where-the-boat-is-computed,Sail Art,500,500,False,False,False,2026-11-15T07:21:29Z
-129717,true-wind-the-sailing-sim-where-the-boat-is-computed,Your Boat,2500,2500,False,False,False,2026-11-15T07:21:29Z
-129718,true-wind-the-sailing-sim-where-the-boat-is-computed,Fleet Sponsor,5000,5000,False,False,False,2026-11-15T07:21:29Z
-129722,the-thing-the-boardgame--the-cardgame,The Boardgame - Gameplay,69,69,False,False,False,2026-11-15T07:21:29Z
-129723,the-thing-the-boardgame--the-cardgame,The Boardgame - Deluxe,189,189,False,False,False,2026-11-15T07:21:29Z
-129724,the-thing-the-boardgame--the-cardgame,All-New Things! (For returning Backers),65,65,False,False,False,2026-11-15T07:21:29Z
-129725,the-thing-the-boardgame--the-cardgame,EveryThing All-in,219,219,True,False,False,2026-11-15T07:21:29Z
-130088,panopticon,3x Panopticon Architect + 3x Panopticon Strategist,630,350,False,False,False,2026-11-15T07:21:29Z
-130259,keyforge-online,Hallafest (Personalized Archon Buddy),2000,2000,False,False,True,2026-11-15T07:21:29Z
-130260,keyforge-online,Hallafest (Personalized Game Board),2000,2000,False,False,True,2026-11-15T07:21:29Z
-130261,keyforge-online,The Architects,3000,3000,False,False,True,2026-11-15T07:21:29Z
-130265,galaxy-unwritten,PILOT,20,20,True,False,False,2026-11-15T07:21:29Z
-130267,galaxy-unwritten,SUPPORTER,50,50,False,False,False,2026-11-15T07:21:29Z
-130268,galaxy-unwritten,HERO'S LEGACY,100,100,False,False,False,2026-11-15T07:21:29Z
-130269,galaxy-unwritten,BECOME THE CREW,500,500,False,False,False,2026-11-15T07:21:29Z
-130270,galaxy-unwritten,FIGHTER DESIGNER,1000,1000,False,False,False,2026-11-15T07:21:29Z
-130271,galaxy-unwritten,TRANSPORT DESIGNER,2000,2000,False,False,False,2026-11-15T07:21:29Z
-130272,galaxy-unwritten,WARSHIP DESIGNER,4000,4000,False,False,False,2026-11-15T07:21:29Z
-130273,galaxy-unwritten,HEAVY SHIP DESIGNER,8000,8000,False,False,False,2026-11-15T07:21:29Z
-130274,galaxy-unwritten,CAPITAL LEGACY,25000,25000,False,False,False,2026-11-15T07:21:29Z
-130281,keyforge-online,Eternal Appreciation,5,5,False,False,False,2026-11-15T07:21:29Z
-130336,somnonautas,Pack Soñador lúcido para tiendas,220.08,220.08,False,False,False,2026-11-15T07:21:29Z
-130338,somnonautas,Pack Somnautas para tiendas x5,177.9,109.4,False,False,False,2026-11-15T07:21:29Z
-130341,true-wind-the-sailing-sim-where-the-boat-is-computed,Supporter flag in online races,0,0,False,False,False,2026-11-15T07:21:29Z
-130435,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Mistress,66.96,66.96,False,False,False,2026-11-15T07:21:29Z
-130436,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Granny,96.56,96.56,False,False,False,2026-11-15T07:21:29Z
-130437,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,The Other One,136.32,136.32,False,False,False,2026-11-15T07:21:29Z
-130438,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,First Among Equals,166.14,166.14,False,False,False,2026-11-15T07:21:29Z
-130440,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Doyenne of Witches,326.92,326.92,False,False,False,2026-11-15T07:21:29Z
-130441,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Doyenne of Witches (signed),367.39,367.39,False,False,False,2026-11-15T07:21:29Z
-130443,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Hag O' Hags,477.33,477.33,False,False,False,2026-11-15T07:21:29Z
-130444,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Hag O' Hags (signed),556.2,556.2,False,False,False,2026-11-15T07:21:29Z
+102162,starheroes,Immortality,11000,11000,False,False,True,2026-11-16T12:19:45Z
+105138,microcosm,Microcosm Base Game,55,55,False,False,False,2026-11-16T12:19:45Z
+106084,microcosm,Professor Bundle,295,250,False,False,False,2026-11-16T12:19:45Z
+106085,microcosm,Senior Scientist Bundle,125,99,True,False,False,2026-11-16T12:19:45Z
+106086,microcosm,Research Assistant Bundle,102,84,False,False,False,2026-11-16T12:19:45Z
+119041,somnonautas,Somnonautas Digital,18.27,16.35,False,False,False,2026-11-16T12:19:45Z
+119044,somnonautas,Somnautas físico,35.58,33.65,False,False,False,2026-11-16T12:19:45Z
+119053,somnonautas,Pack Soñador Plácido,50,50,False,False,False,2026-11-16T12:19:45Z
+119054,somnonautas,Pack Soñador Lucido,99.04,99.04,True,False,False,2026-11-16T12:19:45Z
+119056,somnonautas,Pack Metasoñador,120.2,120.2,False,False,False,2026-11-16T12:19:45Z
+119057,somnonautas,Pack Somnonauta,151.93,151.93,False,False,False,2026-11-16T12:19:45Z
+119257,starheroes,Delta Star Hero,279,251,False,False,False,2026-11-16T12:19:45Z
+119258,starheroes,Gamma Star Hero,561,504,False,False,False,2026-11-16T12:19:45Z
+119259,perilous-frontiers,The Eerie Arch - Desert Bundle (Painted),692,579,False,False,False,2026-11-16T12:19:45Z
+119260,perilous-frontiers,Oasis Encampment - Desert Bundle (Painted),1434,1194,False,False,False,2026-11-16T12:19:45Z
+119261,perilous-frontiers,Driftstone Nexus - Desert Bundle (Painted),1608,1334,False,False,False,2026-11-16T12:19:45Z
+119262,perilous-frontiers,The Badlands - Desert Bundle (Painted),2958,2425,False,False,False,2026-11-16T12:19:45Z
+119263,perilous-frontiers,Frozen Forest Camp - Arctic Bundle (Painted),707,591,False,False,False,2026-11-16T12:19:45Z
+119264,perilous-frontiers,Icy Lair - Arctic Bundle (Painted),1625,1351,False,False,False,2026-11-16T12:19:45Z
+119265,perilous-frontiers,Jagged Reach - Arctic Bundle (Painted),1513,1264,False,False,False,2026-11-16T12:19:45Z
+119266,perilous-frontiers,Corrupted Shore - Arctic Bundle (Painted),3243,2664,False,False,False,2026-11-16T12:19:45Z
+119267,perilous-frontiers,Dreadlands Bay - Desert Bundle (Painted),6692,5344,False,False,False,2026-11-16T12:19:45Z
+119268,perilous-frontiers,Everfrost Expanse - Arctic Bundle (Painted),7088,5672,False,False,False,2026-11-16T12:19:45Z
+119611,1806-auerstadt,"EU/UK backer's copy ""1806: Auerstädt""",69.99,49.99,False,False,False,2026-11-16T12:19:45Z
+125935,platform,Gamer - Backer Pledge,7.5,5,False,False,False,2026-11-16T12:19:45Z
+125938,platform,Gamer - Supporter Pledge,15,10,False,False,False,2026-11-16T12:19:45Z
+125940,platform,Gamer - Player Pledge,32.5,20,False,False,False,2026-11-16T12:19:45Z
+125943,platform,Gamer - Patron Pledge,82.5,40,False,False,False,2026-11-16T12:19:45Z
+125947,platform,Gamer - Veteran Pledge,157.5,75,True,False,False,2026-11-16T12:19:45Z
+125949,platform,Gamer - Champion Pledge,265,125,False,False,False,2026-11-16T12:19:45Z
+125952,platform,Gamer - Founding Member Pledge,400,175,False,False,True,2026-11-16T12:19:45Z
+126188,somewhere-else,Buy me a Banana,5,5,False,False,False,2026-11-16T12:19:45Z
+126198,somewhere-else,Early Bird - Somewhere Else,12,12,True,False,True,2026-11-16T12:19:45Z
+126203,somewhere-else,Somewhere Else,16,16,False,False,False,2026-11-16T12:19:45Z
+126206,somewhere-else,Player Two,28,28,False,False,False,2026-11-16T12:19:45Z
+126228,somewhere-else,Name the Sheep,70,70,False,False,True,2026-11-16T12:19:45Z
+126231,somewhere-else,Name the Frog,70,70,False,False,True,2026-11-16T12:19:45Z
+126233,somewhere-else,Name the Mouse,70,70,False,False,True,2026-11-16T12:19:45Z
+126236,somewhere-else,Name the Beagle,100,100,False,False,True,2026-11-16T12:19:45Z
+126239,somewhere-else,Carved in Stone,30,30,False,False,True,2026-11-16T12:19:45Z
+126244,somewhere-else,Someone to Pet,250,250,False,False,True,2026-11-16T12:19:45Z
+126248,somewhere-else,Create a secret lab animal,300,300,False,False,True,2026-11-16T12:19:45Z
+126273,junk-n-gems,The Game,18,18,False,False,False,2026-11-16T12:19:45Z
+126280,junk-n-gems,Friends Pack,36,24,True,False,False,2026-11-16T12:19:45Z
+126463,satisfactory-the-board-game,Standard Pledge,105,70,False,False,False,2026-11-16T12:19:45Z
+126487,satisfactory-the-board-game,Collector's Pledge,365,280,True,False,False,2026-11-16T12:19:45Z
+126752,nk--siege,Support the Siege,5,5,False,False,False,2026-11-16T12:19:45Z
+126753,nk--siege,Early Recruit,15,15,True,False,False,2026-11-16T12:19:45Z
+126754,nk--siege,Alpha Access,50,50,False,False,False,2026-11-16T12:19:45Z
+126756,die-wachter-der-elemente,DIY Printable Content Chapter One,10,5,True,False,False,2026-11-16T12:19:45Z
+126760,dungeon-draw,All The Things Bundle,141,115,True,False,False,2026-11-16T12:19:45Z
+126773,dungeon-draw,Creator Deluxe Bundle,82,64,False,False,False,2026-11-16T12:19:45Z
+126775,dungeon-draw,Collector Deluxe Bundle,82,64,False,False,False,2026-11-16T12:19:45Z
+126779,dungeon-draw,All Our Base Decks,60,36,False,False,False,2026-11-16T12:19:45Z
+126781,dungeon-draw,Base Game Collector,25,18,False,False,False,2026-11-16T12:19:45Z
+126782,dungeon-draw,Educator Bundle,280,175,False,False,False,2026-11-16T12:19:45Z
+126783,dungeon-draw,Creator Retail Edition,200,150,False,False,False,2026-11-16T12:19:45Z
+126784,dungeon-draw,Collector Retail Edition,200,150,False,False,False,2026-11-16T12:19:45Z
+127247,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Esme,100,40,False,False,False,2026-11-16T12:19:45Z
+127260,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Go Around the Other Side of the Mountain,255,200,False,False,False,2026-11-16T12:19:45Z
+127262,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,She Who Must Be Avoided,445,395,False,False,False,2026-11-16T12:19:45Z
+127454,die-wachter-der-elemente,Basic Game plus,85,75,False,False,False,2026-11-16T12:19:45Z
+127466,bug-out-escape-your-paranoia,Bug Out: Core Game,49,49,False,False,False,2026-11-16T12:19:45Z
+127467,bug-out-escape-your-paranoia,Support the Escape,5,5,False,False,False,2026-11-16T12:19:45Z
+127469,bug-out-escape-your-paranoia,Founding Prepper,59,59,True,False,False,2026-11-16T12:19:45Z
+127470,bug-out-escape-your-paranoia,Bunker Buddies: Save $9 vs. two Core Games,98,89,False,False,False,2026-11-16T12:19:45Z
+127570,age-of-skorpa,Age Of Skorpa PrintAndPlay RPG CARD GAME Digital Product Pdf File,3.99,3.99,True,False,False,2026-11-16T12:19:45Z
+127574,agoro-road-and-agoro-camp,Your name in the games,5,5,False,False,False,2026-11-16T12:19:45Z
+127575,agoro-road-and-agoro-camp,Super early bird: both games,45,25,False,False,False,2026-11-16T12:19:45Z
+127599,biozero-tokyo,Starter Edition,15,12,False,False,False,2026-11-16T12:19:45Z
+127759,heroes-of-gravehold,Defender of Gravehold,79,79,False,False,False,2026-11-16T12:19:45Z
+127788,feed-the-kraken-sea-of-shadows,⛵ Expansion - Feed the Kraken: Sea of Shadows Deluxe,67.23,60,True,False,False,2026-11-16T12:19:45Z
+127793,feed-the-kraken-sea-of-shadows,⚓ Base Game - Feed the Kraken Black Box Deluxe,100.84,90,False,False,False,2026-11-16T12:19:45Z
+127813,space-universalis,Space Universalis Adventurer,109,94,True,False,False,2026-11-16T12:19:45Z
+127815,space-universalis,Space Universalis Commander,157,129,False,False,False,2026-11-16T12:19:45Z
+127817,space-universalis,All-in - Space Universalis Lord,196,149,False,False,False,2026-11-16T12:19:45Z
+128187,bug-out-escape-your-paranoia,Founders' Bunker,169,169,False,False,False,2026-11-16T12:19:45Z
+128281,feed-the-kraken-sea-of-shadows,🏝️ Base Game & Expansion Deluxe Bundle,168.07,140,False,False,False,2026-11-16T12:19:45Z
+128295,agoro-road-and-agoro-camp,Early bird: both games,45,35,False,False,False,2026-11-16T12:19:45Z
+128296,agoro-road-and-agoro-camp,A figurine,25,25,False,False,False,2026-11-16T12:19:45Z
+128297,agoro-road-and-agoro-camp,"Amara, 120 mm figurine",29,29,False,False,False,2026-11-16T12:19:45Z
+128298,agoro-road-and-agoro-camp,Figurine and both games,65,65,False,False,False,2026-11-16T12:19:45Z
+128299,agoro-road-and-agoro-camp,Amara and both games,69,69,False,False,False,2026-11-16T12:19:45Z
+128300,agoro-road-and-agoro-camp,Your character in the Agoro Universe: super early bird,500,250,True,False,False,2026-11-16T12:19:45Z
+128388,die-wachter-der-elemente,DIY Full Printable Starter Set,20,15,False,False,False,2026-11-16T12:19:45Z
+128418,agoro-road-and-agoro-camp,Both games,45,45,False,False,False,2026-11-16T12:19:45Z
+128419,agoro-road-and-agoro-camp,Super early bird: Agoro Road,19.99,11,False,False,False,2026-11-16T12:19:45Z
+128420,agoro-road-and-agoro-camp,Early bird: Agoro Road,19.99,13,False,False,False,2026-11-16T12:19:45Z
+128421,agoro-road-and-agoro-camp,Agoro Road,15,15,False,False,False,2026-11-16T12:19:45Z
+128422,agoro-road-and-agoro-camp,Your character in the Agoro Universe,500,500,False,False,False,2026-11-16T12:19:45Z
+128423,agoro-road-and-agoro-camp,Your Story in the Agoro Universe,990,990,False,False,False,2026-11-16T12:19:45Z
+128435,dungeon-draw,Base Game Creator,25,18,False,False,False,2026-11-16T12:19:45Z
+128449,starheroes,Beta Star Hero,1265,1040,False,False,False,2026-11-16T12:19:45Z
+128457,agoro-road-and-agoro-camp,A figurine in stone or wood finish,39,39,False,False,False,2026-11-16T12:19:45Z
+128535,die-wachter-der-elemente,Basic Game,75,65,False,False,False,2026-11-16T12:19:45Z
+128681,spell-tyrants,Core Rules,19,19,False,False,False,2026-11-16T12:19:45Z
+128683,spell-tyrants,Expanded Rules,29,29,False,False,False,2026-11-16T12:19:45Z
+128724,spell-tyrants,Core Digital Collection,35,35,False,False,False,2026-11-16T12:19:45Z
+128777,hagglethorn-hollow-evermaze,Hedge Maze (Digital STL),69,69,False,False,False,2026-11-16T12:19:45Z
+128778,hagglethorn-hollow-evermaze,Stone Maze (Digital STL),69,69,False,False,False,2026-11-16T12:19:45Z
+128779,hagglethorn-hollow-evermaze,All-In Evermaze (Digital STL),109,109,True,False,False,2026-11-16T12:19:45Z
+128781,spell-tyrants,Expanded Digital Collection [Early Bird],45,45,False,False,True,2026-11-16T12:19:45Z
+128782,spell-tyrants,Expanded Digital Collection,49,49,False,False,False,2026-11-16T12:19:45Z
+128783,spell-tyrants,Core Hardcover Collection,59,59,False,False,False,2026-11-16T12:19:45Z
+128785,spell-tyrants,Complete Collection,89,89,True,False,False,2026-11-16T12:19:45Z
+128905,agoro-road-and-agoro-camp,First backers: Agoro Road,19.99,9,False,False,False,2026-11-16T12:19:45Z
+128906,agoro-road-and-agoro-camp,First backers: both games,45,15,False,False,False,2026-11-16T12:19:45Z
+128917,gunner,GUNNER SUPPORTER,5,5,False,False,False,2026-11-16T12:19:45Z
+128918,gunner,GUNNER RECRUIT,15,15,True,False,False,2026-11-16T12:19:45Z
+128919,gunner,GUNNER VETERAN,25,25,False,False,False,2026-11-16T12:19:45Z
+128920,gunner,LEGENDARY GUNNER,50,50,False,False,False,2026-11-16T12:19:45Z
+129018,satisfactory-the-board-game,Deluxe Pledge,175,135,False,False,False,2026-11-16T12:19:45Z
+129040,hagglethorn-hollow-evermaze,Back the Hollow,1,1,False,False,False,2026-11-16T12:19:45Z
+129104,keyforge-online,Shard of Hope,40,40,False,False,False,2026-11-16T12:19:45Z
+129140,red-alert-new-world-order,Strike Command - 2 Player Core Game,299,169,False,False,False,2026-11-16T12:19:45Z
+129206,erune---echoes-of-hollow-woods,INTO THE HOLLOW WOODS,133.3,105,False,False,False,2026-11-16T12:19:45Z
+129213,erune---echoes-of-hollow-woods,STARTER PACK,179.17,146,False,False,False,2026-11-16T12:19:45Z
+129216,erune---echoes-of-hollow-woods,ALL THE GAMEPLAY,291.66,238,False,False,False,2026-11-16T12:19:45Z
+129219,erune---echoes-of-hollow-woods,ALL-IN,501.98,413,True,False,False,2026-11-16T12:19:45Z
+129222,panopticon,Fellow Pledge ,59,49,False,False,False,2026-11-16T12:19:45Z
+129248,panopticon,72H Early Bird - Fellow Pledge ,59,49,False,False,False,2026-11-16T12:19:45Z
+129266,panopticon,72H Early Bird - Strategist Pledge,85,65,False,False,False,2026-11-16T12:19:45Z
+129267,panopticon,24H Super Early Bird - Strategist Pledge,85,65,False,False,False,2026-11-16T12:19:45Z
+129274,panopticon,Strategist Pledge,85,69,False,False,False,2026-11-16T12:19:45Z
+129275,panopticon,24H Super Early Bird - Architect Pledge,125,89,False,False,False,2026-11-16T12:19:45Z
+129276,panopticon,72H Early Bird - Architect Pledge,125,89,False,False,False,2026-11-16T12:19:45Z
+129277,panopticon,Architect Pledge,125,99,True,False,False,2026-11-16T12:19:45Z
+129293,eldfall-chronicles-apocrypha,Core Pledge,129,89,False,False,False,2026-11-16T12:19:45Z
+129296,red-alert-new-world-order,STRIKE COMMAND - 2 Player Multiplayer ALL-IN,557,267,True,False,False,2026-11-16T12:19:45Z
+129297,red-alert-new-world-order,JOINT COMMAND - 4 Player Multiplayer ALL-IN,865,415,False,False,False,2026-11-16T12:19:45Z
+129298,red-alert-new-world-order,COALITION COMMAND - 6 Player Multiplayer ALL-IN,1173,523,False,False,False,2026-11-16T12:19:45Z
+129299,red-alert-new-world-order,WORLD DOMINATION – ULTIMATE 6-PLAYER ALL-IN + SOLO + 6-PLAYER 3D MINIATURES,1629,739,False,False,False,2026-11-16T12:19:45Z
+129319,the-french-and-indian-war-1754-1760,The French and Indian War 1754-1760 - Deluxe,229,189,True,False,False,2026-11-16T12:19:45Z
+129405,perilous-frontiers,Desert Battlefield Bundle (Painted),578,493,False,False,False,2026-11-16T12:19:45Z
+129406,perilous-frontiers,Arctic Battlefield Bundle (Painted),600,510,False,False,False,2026-11-16T12:19:45Z
+129410,keyforge-online,Hope's Champion,100,100,False,False,False,2026-11-16T12:19:45Z
+129411,keyforge-online,Hope's Vaultkeeper,200,200,True,False,False,2026-11-16T12:19:45Z
+129412,keyforge-online,The Council,600,600,False,False,False,2026-11-16T12:19:45Z
+129414,keyforge-online,Born to Rock,1200,1200,False,False,False,2026-11-16T12:19:45Z
+129422,keyforge-online,Hallafest (Personalized Winning Animation),2000,2000,False,False,True,2026-11-16T12:19:45Z
+129470,wild-conversations,Wild Supporter,5,5,False,False,False,2026-11-16T12:19:45Z
+129472,wild-conversations,Early Bison,29,27,False,False,False,2026-11-16T12:19:45Z
+129474,wild-conversations,One deck,29,29,False,False,False,2026-11-16T12:19:45Z
+129475,wild-conversations,"Keep One, Gift One (most popular)",58,55,True,False,False,2026-11-16T12:19:45Z
+129477,wild-conversations,Holiday T(h)ree,87,79,False,False,False,2026-11-16T12:19:45Z
+129479,wild-conversations,Team Pack,145,129,False,False,False,2026-11-16T12:19:45Z
+129481,wild-conversations,Wild Conversations Workshop,480,480,False,False,False,2026-11-16T12:19:45Z
+129550,agoro-road-and-agoro-camp,First backers: Agoro Camp,49.99,9,False,False,False,2026-11-16T12:19:45Z
+129551,agoro-road-and-agoro-camp,Super early bird: Agoro Camp,49.99,22,False,False,False,2026-11-16T12:19:45Z
+129552,agoro-road-and-agoro-camp,Agoro Camp,39,39,False,False,False,2026-11-16T12:19:45Z
+129553,agoro-road-and-agoro-camp,Early bird: Agoro Camp,49.99,29,False,False,False,2026-11-16T12:19:45Z
+129554,agoro-road-and-agoro-camp,Your character in the Agoro Universe: early bird,350,350,False,False,False,2026-11-16T12:19:45Z
+129598,hagglethorn-hollow-evermaze,Hedge Maze — 70 Unpainted Prints + Hedge Maze STLs,549,549,False,False,True,2026-11-16T12:19:45Z
+129599,hagglethorn-hollow-evermaze,Stone Maze — 46 Unpainted Prints + Stone Maze STLs,649,649,False,False,True,2026-11-16T12:19:45Z
+129600,hagglethorn-hollow-evermaze,Evermaze All-In — 116 Core Unpainted Prints + Bonuses + All STLs,1299,1299,False,False,True,2026-11-16T12:19:45Z
+129605,ashen-verge,Thank You,3,3,False,False,False,2026-11-16T12:19:45Z
+129608,ashen-verge,"Fallen, Early Bird",18,18,False,False,True,2026-11-16T12:19:45Z
+129620,ashen-verge,Fallen,25,25,True,False,False,2026-11-16T12:19:45Z
+129621,ashen-verge,Digital Deluxe,40,40,False,False,False,2026-11-16T12:19:45Z
+129622,ashen-verge,Inner Circle,65,65,False,False,False,2026-11-16T12:19:45Z
+129623,ashen-verge,A Name in the Field of the Fallen,120,120,False,False,True,2026-11-16T12:19:45Z
+129624,ashen-verge,A Monument in the Verge,250,250,False,False,True,2026-11-16T12:19:45Z
+129625,ashen-verge,A Relic of Your Making,400,400,False,False,True,2026-11-16T12:19:45Z
+129626,ashen-verge,Your Portrait in the Verge,750,750,False,False,True,2026-11-16T12:19:45Z
+129627,ashen-verge,A Soul Who Fights Beside You,1500,1500,False,False,True,2026-11-16T12:19:45Z
+129628,ashen-verge,Design a Lesser Demon,3000,3000,False,False,True,2026-11-16T12:19:45Z
+129686,spherechild-vierte-edition,Alle drei Bücher digital (PDF),60,60,False,False,False,2026-11-16T12:19:45Z
+129687,spherechild-vierte-edition,Einstieg in Spherechild - New Edition digital (PDF),30,30,False,False,False,2026-11-16T12:19:45Z
+129690,space-universalis,Digital Pledge,69,49,False,False,False,2026-11-16T12:19:45Z
+129691,bug-out-escape-your-paranoia,Print & Play: File Leak Kit,15,15,False,False,False,2026-11-16T12:19:45Z
+129698,heroes-of-gravehold,Legend of Gravehold,89,89,False,False,False,2026-11-16T12:19:45Z
+129711,true-wind-the-sailing-sim-where-the-boat-is-computed,Deckhand,5,5,False,False,False,2026-11-16T12:19:45Z
+129712,true-wind-the-sailing-sim-where-the-boat-is-computed,Crew,15,15,True,False,False,2026-11-16T12:19:45Z
+129713,true-wind-the-sailing-sim-where-the-boat-is-computed,Skipper,35,35,False,False,False,2026-11-16T12:19:45Z
+129714,true-wind-the-sailing-sim-where-the-boat-is-computed,Navigator,75,75,False,False,False,2026-11-16T12:19:45Z
+129715,true-wind-the-sailing-sim-where-the-boat-is-computed,Sail Name,150,150,False,False,False,2026-11-16T12:19:45Z
+129716,true-wind-the-sailing-sim-where-the-boat-is-computed,Sail Art,500,500,False,False,False,2026-11-16T12:19:45Z
+129717,true-wind-the-sailing-sim-where-the-boat-is-computed,Your Boat,2500,2500,False,False,False,2026-11-16T12:19:45Z
+129718,true-wind-the-sailing-sim-where-the-boat-is-computed,Fleet Sponsor,5000,5000,False,False,False,2026-11-16T12:19:45Z
+129722,the-thing-the-boardgame--the-cardgame,The Boardgame - Gameplay,69,69,False,False,False,2026-11-16T12:19:45Z
+129723,the-thing-the-boardgame--the-cardgame,The Boardgame - Deluxe,189,189,False,False,False,2026-11-16T12:19:45Z
+129724,the-thing-the-boardgame--the-cardgame,All-New Things! (For returning Backers),65,65,False,False,False,2026-11-16T12:19:45Z
+129725,the-thing-the-boardgame--the-cardgame,EveryThing All-in,219,219,True,False,False,2026-11-16T12:19:45Z
+130088,panopticon,3x Panopticon Architect + 3x Panopticon Strategist,630,350,False,False,False,2026-11-16T12:19:45Z
+130259,keyforge-online,Hallafest (Personalized Archon Buddy),2000,2000,False,False,True,2026-11-16T12:19:45Z
+130260,keyforge-online,Hallafest (Personalized Game Board),2000,2000,False,False,True,2026-11-16T12:19:45Z
+130261,keyforge-online,The Architects,3000,3000,False,False,True,2026-11-16T12:19:45Z
+130265,galaxy-unwritten,PILOT,20,20,True,False,False,2026-11-16T12:19:45Z
+130267,galaxy-unwritten,SUPPORTER,50,50,False,False,False,2026-11-16T12:19:45Z
+130268,galaxy-unwritten,HERO'S LEGACY,100,100,False,False,False,2026-11-16T12:19:45Z
+130269,galaxy-unwritten,BECOME THE CREW,500,500,False,False,False,2026-11-16T12:19:45Z
+130270,galaxy-unwritten,FIGHTER DESIGNER,1000,1000,False,False,False,2026-11-16T12:19:45Z
+130271,galaxy-unwritten,TRANSPORT DESIGNER,2000,2000,False,False,False,2026-11-16T12:19:45Z
+130272,galaxy-unwritten,WARSHIP DESIGNER,4000,4000,False,False,False,2026-11-16T12:19:45Z
+130273,galaxy-unwritten,HEAVY SHIP DESIGNER,8000,8000,False,False,False,2026-11-16T12:19:45Z
+130274,galaxy-unwritten,CAPITAL LEGACY,25000,25000,False,False,False,2026-11-16T12:19:45Z
+130281,keyforge-online,Eternal Appreciation,5,5,False,False,False,2026-11-16T12:19:45Z
+130336,somnonautas,Pack Soñador lúcido para tiendas,220.08,220.08,False,False,False,2026-11-16T12:19:45Z
+130338,somnonautas,Pack Somnautas para tiendas x5,177.9,109.4,False,False,False,2026-11-16T12:19:45Z
+130341,true-wind-the-sailing-sim-where-the-boat-is-computed,Supporter flag in online races,0,0,False,False,False,2026-11-16T12:19:45Z
+130435,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Mistress,66.96,66.96,False,False,False,2026-11-16T12:19:45Z
+130436,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Granny,96.56,96.56,False,False,False,2026-11-16T12:19:45Z
+130437,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,The Other One,136.32,136.32,False,False,False,2026-11-16T12:19:45Z
+130438,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,First Among Equals,166.14,166.14,False,False,False,2026-11-16T12:19:45Z
+130440,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Doyenne of Witches,326.92,326.92,False,False,False,2026-11-16T12:19:45Z
+130441,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Doyenne of Witches (signed),367.39,367.39,False,False,False,2026-11-16T12:19:45Z
+130443,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Hag O' Hags,477.33,477.33,False,False,False,2026-11-16T12:19:45Z
+130444,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Hag O' Hags (signed),556.2,556.2,False,False,False,2026-11-16T12:19:45Z
 130445,Ultimate-TCG-and-Miniature-Storage,TCG Storage Box Ultimate 1500+,65,65,False,False,False,2026-11-15T07:21:29Z
 130447,Ultimate-TCG-and-Miniature-Storage,TCG Storage Box Small 750+,40,40,True,False,False,2026-11-15T07:21:29Z
 130451,Ultimate-TCG-and-Miniature-Storage,Magnetic Miniature Storage and Transport Box A4,25,25,False,False,False,2026-11-15T07:21:29Z
 130454,Ultimate-TCG-and-Miniature-Storage,Magnetic Miniature Storage and Transport Case A4,30,30,False,False,False,2026-11-15T07:21:29Z
-130516,fable-quest,Fable Quest Deluxe,250,179,True,False,False,2026-11-15T07:21:29Z
-130518,fable-quest,Arcadia Quest Deluxe,150,119,False,False,False,2026-11-15T07:21:29Z
-130519,fable-quest,Fable Quest + Arcadia Quest (Both Deluxe!),400,279,False,False,False,2026-11-15T07:21:29Z
-130528,wild-conversations,Large Team Pack,290,245,False,False,False,2026-11-15T07:21:29Z
-130533,wild-conversations,Deck + Postcards,42,37,False,False,False,2026-11-15T07:21:29Z
-130567,eldfall-chronicles-apocrypha,Deluxe Pledge,357,209,False,False,False,2026-11-15T07:21:29Z
-130569,eldfall-chronicles-apocrypha,Collector Pledge,444,259,False,False,False,2026-11-15T07:21:29Z
-130570,eldfall-chronicles-apocrypha,Apocrypha All-in,595,379,True,False,False,2026-11-15T07:21:29Z
-130572,eldfall-chronicles-apocrypha,Dungeon-Crawl All-in,1112,720,False,False,False,2026-11-15T07:21:29Z
-130720,red-alert-new-world-order,Joint Command - 4 Player Core Game,478,248,False,False,False,2026-11-15T07:21:29Z
-130721,red-alert-new-world-order,Coalition Command - 6 Player Core Game,657,327,False,False,False,2026-11-15T07:21:29Z
-130884,satisfactory-the-board-game,Retailer Access Pledge,500,300,False,False,False,2026-11-15T07:21:29Z
-131009,starheroes,Eternium Vault,2735,2275,False,False,False,2026-11-15T07:21:29Z
-131013,kelp-shark-vs-octopus-offshore-offspring-expansion,Deluxe All In (UK only),172.5,161.67,False,False,False,2026-11-15T07:21:29Z
-131038,kelp-shark-vs-octopus-offshore-offspring-expansion,New Expansions: Offshore Offspring + Amazing Adaptations (UK only),36.67,36.67,False,False,False,2026-11-15T07:21:29Z
-131039,kelp-shark-vs-octopus-offshore-offspring-expansion,Kelp Deluxe (UK only),50,50,False,False,False,2026-11-15T07:21:29Z
-131040,kelp-shark-vs-octopus-offshore-offspring-expansion,Deluxe Gameplay All-In (UK only),105,105,False,False,False,2026-11-15T07:21:29Z
-131041,kelp-shark-vs-octopus-offshore-offspring-expansion,All-In Upgrade (Base Game not included) (UK only),135,124.17,False,False,False,2026-11-15T07:21:29Z
-131134,marco-polo-deluxe-master-set,Marco Polo Deluxe Master Set,120,99,False,False,False,2026-11-15T07:21:29Z
-131137,marco-polo-deluxe-master-set,ALL-IN Pledge,260,169,True,False,False,2026-11-15T07:21:29Z
-131188,starheroes,x2 Starter Decks,37.5,37.5,False,False,False,2026-11-15T07:21:29Z
-131197,starheroes,Battle Booster Box,89,85,False,False,False,2026-11-15T07:21:29Z
-131198,starheroes,Eternium Booster Box,149,139,False,False,False,2026-11-15T07:21:29Z
-131209,starheroes,x1 Deck & Battle Booster Box,104,95,True,False,False,2026-11-15T07:21:29Z
-131231,croquetalipsisboardgame,Croquetalipsis,10,10,True,False,False,2026-11-15T07:21:29Z
-131243,erune---echoes-of-hollow-woods,EXPANSIONS ONLY,217,174,False,False,False,2026-11-15T07:21:29Z
-131244,croquetalipsisboardgame,Croquetalipsis (3 units),27,27,False,False,False,2026-11-15T07:21:29Z
-131246,hagglethorn-hollow-evermaze,Hedge Maze PAINTED — 70 Painted Prints + Hedge Maze STLs (Limited to 5),1049,1049,False,False,True,2026-11-15T07:21:29Z
-131249,hagglethorn-hollow-evermaze,Stone Maze PAINTED — 46 Painted Prints + Stone Maze STLs (Limited to 5),1149,1149,False,False,True,2026-11-15T07:21:29Z
-131250,hagglethorn-hollow-evermaze,Evermaze All-In PAINTED — 116 Core Painted Prints + Bonuses + All STLs (Limited to 5),2299,2299,False,False,True,2026-11-15T07:21:29Z
+130516,fable-quest,Fable Quest Deluxe,250,179,True,False,False,2026-11-16T12:19:45Z
+130518,fable-quest,Arcadia Quest Deluxe,150,119,False,False,False,2026-11-16T12:19:45Z
+130519,fable-quest,Fable Quest + Arcadia Quest (Both Deluxe!),400,279,False,False,False,2026-11-16T12:19:45Z
+130528,wild-conversations,Large Team Pack,290,245,False,False,False,2026-11-16T12:19:45Z
+130533,wild-conversations,Deck + Postcards,42,37,False,False,False,2026-11-16T12:19:45Z
+130567,eldfall-chronicles-apocrypha,Deluxe Pledge,357,209,False,False,False,2026-11-16T12:19:45Z
+130569,eldfall-chronicles-apocrypha,Collector Pledge,444,259,False,False,False,2026-11-16T12:19:45Z
+130570,eldfall-chronicles-apocrypha,Apocrypha All-in,595,379,True,False,False,2026-11-16T12:19:45Z
+130572,eldfall-chronicles-apocrypha,Dungeon-Crawl All-in,1112,720,False,False,False,2026-11-16T12:19:45Z
+130720,red-alert-new-world-order,Joint Command - 4 Player Core Game,478,248,False,False,False,2026-11-16T12:19:45Z
+130721,red-alert-new-world-order,Coalition Command - 6 Player Core Game,657,327,False,False,False,2026-11-16T12:19:45Z
+130884,satisfactory-the-board-game,Retailer Access Pledge,500,300,False,False,False,2026-11-16T12:19:45Z
+131009,starheroes,Eternium Vault,2735,2275,False,False,False,2026-11-16T12:19:45Z
+131013,kelp-shark-vs-octopus-offshore-offspring-expansion,Deluxe All In (UK only),172.5,161.67,False,False,False,2026-11-16T12:19:45Z
+131038,kelp-shark-vs-octopus-offshore-offspring-expansion,New Expansions: Offshore Offspring + Amazing Adaptations (UK only),36.67,36.67,False,False,False,2026-11-16T12:19:45Z
+131039,kelp-shark-vs-octopus-offshore-offspring-expansion,Kelp Deluxe (UK only),50,50,False,False,False,2026-11-16T12:19:45Z
+131040,kelp-shark-vs-octopus-offshore-offspring-expansion,Deluxe Gameplay All-In (UK only),105,105,False,False,False,2026-11-16T12:19:45Z
+131041,kelp-shark-vs-octopus-offshore-offspring-expansion,All-In Upgrade (Base Game not included) (UK only),135,124.17,False,False,False,2026-11-16T12:19:45Z
+131134,marco-polo-deluxe-master-set,Marco Polo Deluxe Master Set,120,99,False,False,False,2026-11-16T12:19:45Z
+131137,marco-polo-deluxe-master-set,ALL-IN Pledge,260,169,True,False,False,2026-11-16T12:19:45Z
+131188,starheroes,x2 Starter Decks,37.5,37.5,False,False,False,2026-11-16T12:19:45Z
+131197,starheroes,Battle Booster Box,89,85,False,False,False,2026-11-16T12:19:45Z
+131198,starheroes,Eternium Booster Box,149,139,False,False,False,2026-11-16T12:19:45Z
+131209,starheroes,x1 Deck & Battle Booster Box,104,95,True,False,False,2026-11-16T12:19:45Z
+131231,croquetalipsisboardgame,Croquetalipsis,10,10,True,False,False,2026-11-16T12:19:45Z
+131243,erune---echoes-of-hollow-woods,EXPANSIONS ONLY,217,174,False,False,False,2026-11-16T12:19:45Z
+131244,croquetalipsisboardgame,Croquetalipsis (3 units),27,27,False,False,False,2026-11-16T12:19:45Z
+131246,hagglethorn-hollow-evermaze,Hedge Maze PAINTED — 70 Painted Prints + Hedge Maze STLs (Limited to 5),1049,1049,False,False,True,2026-11-16T12:19:45Z
+131249,hagglethorn-hollow-evermaze,Stone Maze PAINTED — 46 Painted Prints + Stone Maze STLs (Limited to 5),1149,1149,False,False,True,2026-11-16T12:19:45Z
+131250,hagglethorn-hollow-evermaze,Evermaze All-In PAINTED — 116 Core Painted Prints + Bonuses + All STLs (Limited to 5),2299,2299,False,False,True,2026-11-16T12:19:45Z
 131294,Ultimate-TCG-and-Miniature-Storage,Universal Card Storage Case 1500+,30,30,False,False,False,2026-11-15T07:21:29Z
-131527,red-alert-new-world-order,Strike Command – Campaign Edition,408,208,False,False,False,2026-11-15T07:21:29Z
-131528,red-alert-new-world-order,Strike Command - Theatre of War Edition,448,228,False,False,False,2026-11-15T07:21:29Z
-131529,red-alert-new-world-order,Joint Command – Campaign Edition,587,287,False,False,False,2026-11-15T07:21:29Z
-131530,red-alert-new-world-order,Joint Command - Theatre of War Edition,587,356,False,False,False,2026-11-15T07:21:29Z
-131716,wild-conversations,Digital Deck,10,10,False,False,False,2026-11-15T07:21:29Z
-131761,marco-polo-deluxe-master-set,All Gameplay,160,133,False,False,False,2026-11-15T07:21:29Z
-71502,starheroes,All Four Starter Decks,75,75,False,False,False,2026-11-15T07:21:29Z
-88461,xanathar-cable-guy,Guild Members Pledge,80,80,False,False,False,2026-11-15T07:21:29Z
-88477,xanathar-cable-guy,Sylgar's Favourite Pledge,120,120,False,False,False,2026-11-15T07:21:29Z
-89762,xanathar-cable-guy,Eleven Eyes of Xanathar Pledge,150,150,True,False,False,2026-11-15T07:21:29Z
+131527,red-alert-new-world-order,Strike Command – Campaign Edition,408,208,False,False,False,2026-11-16T12:19:45Z
+131528,red-alert-new-world-order,Strike Command - Theatre of War Edition,448,228,False,False,False,2026-11-16T12:19:45Z
+131529,red-alert-new-world-order,Joint Command – Campaign Edition,587,287,False,False,False,2026-11-16T12:19:45Z
+131530,red-alert-new-world-order,Joint Command - Theatre of War Edition,587,356,False,False,False,2026-11-16T12:19:45Z
+131716,wild-conversations,Digital Deck,10,10,False,False,False,2026-11-16T12:19:45Z
+131761,marco-polo-deluxe-master-set,All Gameplay,160,133,False,False,False,2026-11-16T12:19:45Z
+131803,biozero-tokyo,Full Game (No-Cutting Edition),25,20,False,False,False,2026-11-16T12:19:45Z
+131805,biozero-tokyo,Complete PnP Bundle (Tabletop + No-Cutting Editions),30,25,True,False,False,2026-11-16T12:19:45Z
+131807,biozero-tokyo,BioZero + Iron Quest PnP Game Bundle,65,50,False,False,False,2026-11-16T12:19:45Z
+131815,spell-tyrants,Core Hardcover,45,45,False,False,False,2026-11-16T12:19:45Z
+71502,starheroes,All Four Starter Decks,75,75,False,False,False,2026-11-16T12:19:45Z
+88461,xanathar-cable-guy,Guild Members Pledge,80,80,False,False,False,2026-11-16T12:19:45Z
+88477,xanathar-cable-guy,Sylgar's Favourite Pledge,120,120,False,False,False,2026-11-16T12:19:45Z
+89762,xanathar-cable-guy,Eleven Eyes of Xanathar Pledge,150,150,True,False,False,2026-11-16T12:19:45Z
