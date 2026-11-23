@@ -136,6 +136,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 128982,thebreach-reprint-hellcoreexpansion,Breacher,297,179,False,False,False,2026-11-21T20:05:40Z
 128983,thebreach-reprint-hellcoreexpansion,All-in,617,349,True,False,False,2026-11-21T20:05:40Z
 129018,satisfactory-the-board-game,Deluxe Pledge,175,135,False,False,False,2026-11-16T12:19:45Z
+129027,the_lobbyst,The Lobbyist,49,49,True,False,False,2026-11-23T20:04:42Z
 129040,hagglethorn-hollow-evermaze,Back the Hollow,1,1,False,False,False,2026-11-21T20:05:40Z
 129104,keyforge-online,Shard of Hope,40,40,False,False,False,2026-11-21T20:05:40Z
 129140,red-alert-new-world-order,Strike Command - 2 Player Core Game,299,169,False,False,False,2026-11-21T20:05:40Z
@@ -234,7 +235,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 130274,galaxy-unwritten,CAPITAL LEGACY,25000,25000,False,False,False,2026-11-21T20:05:40Z
 130281,keyforge-online,Eternal Appreciation,5,5,False,False,False,2026-11-21T20:05:40Z
 130336,somnonautas,Pack Soñador lúcido para tiendas,220.08,220.08,False,False,False,2026-11-21T20:05:40Z
-130338,somnonautas,Pack Somnautas para tiendas x5,177.9,109.4,False,False,False,2026-11-21T20:05:40Z
+130338,somnonautas,Pack Somnautas para tiendas x5,109.4,109.4,False,False,False,2026-11-23T20:04:42Z
 130341,true-wind-the-sailing-sim-where-the-boat-is-computed,Supporter flag in online races,0,0,False,False,False,2026-11-21T20:05:40Z
 130435,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Mistress,66.96,66.96,False,False,False,2026-11-21T20:05:40Z
 130436,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Granny,96.56,96.56,False,False,False,2026-11-21T20:05:40Z
@@ -312,6 +313,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 131974,dice-valley,DICE VALLEY BASIC SET (UK),22.5,15,False,False,False,2026-11-21T20:05:40Z
 131975,dice-valley,DICE VALLEY ALL-IN (UK),35,29.16,False,False,False,2026-11-21T20:05:40Z
 132243,thebreach-reprint-hellcoreexpansion,Net-Crawler,386,219,False,False,False,2026-11-21T20:05:40Z
+132385,keyforge-online,Glimmer of Hope,20,20,False,False,False,2026-11-23T20:04:42Z
 71502,starheroes,All Four Starter Decks,75,75,False,False,False,2026-11-21T20:05:40Z
 88461,xanathar-cable-guy,Guild Members Pledge,80,80,False,False,False,2026-11-21T20:05:40Z
 88477,xanathar-cable-guy,Sylgar's Favourite Pledge,120,120,False,False,False,2026-11-21T20:05:40Z
