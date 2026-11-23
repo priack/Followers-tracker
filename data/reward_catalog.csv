@@ -139,10 +139,10 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 129040,hagglethorn-hollow-evermaze,Back the Hollow,1,1,False,False,False,2026-11-21T20:05:40Z
 129104,keyforge-online,Shard of Hope,40,40,False,False,False,2026-11-21T20:05:40Z
 129140,red-alert-new-world-order,Strike Command - 2 Player Core Game,299,169,False,False,False,2026-11-21T20:05:40Z
-129206,erune---echoes-of-hollow-woods,INTO THE HOLLOW WOODS,133.3,105,False,False,False,2026-11-21T20:05:40Z
-129213,erune---echoes-of-hollow-woods,STARTER PACK,179.17,146,False,False,False,2026-11-21T20:05:40Z
-129216,erune---echoes-of-hollow-woods,ALL THE GAMEPLAY,291.66,238,False,False,False,2026-11-21T20:05:40Z
-129219,erune---echoes-of-hollow-woods,ALL-IN,501.98,413,True,False,False,2026-11-21T20:05:40Z
+129206,erune---echoes-of-hollow-woods,INTO THE HOLLOW WOODS,146.3,105,False,False,False,2026-11-23T10:04:46Z
+129213,erune---echoes-of-hollow-woods,STARTER PACK,192.17,146,False,False,False,2026-11-23T10:04:46Z
+129216,erune---echoes-of-hollow-woods,ALL THE GAMEPLAY,304.66,238,False,False,False,2026-11-23T10:04:46Z
+129219,erune---echoes-of-hollow-woods,ALL-IN,514.98,413,True,False,False,2026-11-23T10:04:46Z
 129222,panopticon,Fellow Pledge ,59,49,False,False,False,2026-11-21T20:05:40Z
 129248,panopticon,72H Early Bird - Fellow Pledge ,59,49,False,False,False,2026-11-21T20:05:40Z
 129266,panopticon,72H Early Bird - Strategist Pledge,85,65,False,False,False,2026-11-21T20:05:40Z
@@ -248,6 +248,8 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 130447,Ultimate-TCG-and-Miniature-Storage,TCG Storage Box Small 750+,40,40,True,False,False,2026-11-15T07:21:29Z
 130451,Ultimate-TCG-and-Miniature-Storage,Magnetic Miniature Storage and Transport Box A4,25,25,False,False,False,2026-11-15T07:21:29Z
 130454,Ultimate-TCG-and-Miniature-Storage,Magnetic Miniature Storage and Transport Case A4,30,30,False,False,False,2026-11-15T07:21:29Z
+130473,playland-stars,Playland Entertainment – Supporter Pack,5,5,True,False,False,2026-11-23T10:04:46Z
+130474,playland-stars,Playland Entertainment – Insider Pack,25,25,False,False,False,2026-11-23T10:04:46Z
 130516,fable-quest,Fable Quest Deluxe,250,179,True,False,False,2026-11-16T12:19:45Z
 130518,fable-quest,Arcadia Quest Deluxe,150,119,False,False,False,2026-11-16T12:19:45Z
 130519,fable-quest,Fable Quest + Arcadia Quest (Both Deluxe!),400,279,False,False,False,2026-11-16T12:19:45Z
@@ -279,7 +281,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 131198,starheroes,Eternium Booster Box,149,139,False,False,False,2026-11-21T20:05:40Z
 131209,starheroes,x1 Deck & Battle Booster Box,104,95,True,False,False,2026-11-21T20:05:40Z
 131231,croquetalipsisboardgame,Croquetalipsis,10,10,True,False,False,2026-11-21T20:05:40Z
-131243,erune---echoes-of-hollow-woods,EXPANSIONS ONLY,217,174,False,False,False,2026-11-21T20:05:40Z
+131243,erune---echoes-of-hollow-woods,EXPANSIONS ONLY,230,174,False,False,False,2026-11-23T10:04:46Z
 131244,croquetalipsisboardgame,Croquetalipsis (3 units),27,27,False,False,False,2026-11-21T20:05:40Z
 131246,hagglethorn-hollow-evermaze,Hedge Maze PAINTED — 70 Painted Prints + Hedge Maze STLs (Limited to 5),1049,1049,False,False,True,2026-11-21T20:05:40Z
 131249,hagglethorn-hollow-evermaze,Stone Maze PAINTED — 46 Painted Prints + Stone Maze STLs (Limited to 5),1149,1149,False,False,True,2026-11-21T20:05:40Z
