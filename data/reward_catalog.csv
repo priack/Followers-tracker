@@ -2,10 +2,13 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 102162,starheroes,Immortality,11000,11000,False,False,True,2026-11-21T20:05:40Z
 103641,the-longpack-way---how-to-make-a-board-game,Just A Book,19.99,16.99,False,False,False,2026-11-21T20:05:40Z
 103642,the-longpack-way---how-to-make-a-board-game,All-in premium (Gamefound Special Edition),49.99,49.99,False,False,False,2026-11-21T20:05:40Z
+104499,dice-quest,Dice Quest: The Tower of the Elephant - Retail Edition,16.5,16.5,False,False,False,2026-11-24T20:05:17Z
+104501,dice-quest,Dice Quest: The Dunwich Horror - Retail Edition,16.5,16.5,False,False,False,2026-11-24T20:05:17Z
 105138,microcosm,Microcosm Base Game,55,55,False,False,False,2026-11-21T20:05:40Z
 106084,microcosm,Professor Bundle,295,250,False,False,False,2026-11-21T20:05:40Z
 106085,microcosm,Senior Scientist Bundle,125,99,True,False,False,2026-11-21T20:05:40Z
 106086,microcosm,Research Assistant Bundle,102,84,False,False,False,2026-11-21T20:05:40Z
+109719,low-orbit-online,Unique ship for registered users,10,8,True,False,False,2026-11-24T20:05:17Z
 111207,sunlits-eulogy,Sunlit's Eulogy,72,72,True,False,False,2026-11-21T20:05:40Z
 119041,somnonautas,Somnonautas Digital,18.27,16.35,False,False,False,2026-11-21T20:05:40Z
 119044,somnonautas,Somnautas físico,35.58,33.65,False,False,False,2026-11-21T20:05:40Z
@@ -13,6 +16,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 119054,somnonautas,Pack Soñador Lucido,99.04,99.04,True,False,False,2026-11-21T20:05:40Z
 119056,somnonautas,Pack Metasoñador,120.2,120.2,False,False,False,2026-11-21T20:05:40Z
 119057,somnonautas,Pack Somnonauta,151.93,151.93,False,False,False,2026-11-21T20:05:40Z
+119167,generation-ship,Fleet Pledge,71.98,49,True,False,False,2026-11-24T20:05:17Z
 119257,starheroes,Delta Star Hero,279,251,False,False,False,2026-11-21T20:05:40Z
 119258,starheroes,Gamma Star Hero,561,504,False,False,False,2026-11-21T20:05:40Z
 119259,perilous-frontiers,The Eerie Arch - Desert Bundle (Painted),692,579,False,False,False,2026-11-16T12:19:45Z
@@ -26,6 +30,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 119267,perilous-frontiers,Dreadlands Bay - Desert Bundle (Painted),6692,5344,False,False,False,2026-11-16T12:19:45Z
 119268,perilous-frontiers,Everfrost Expanse - Arctic Bundle (Painted),7088,5672,False,False,False,2026-11-16T12:19:45Z
 119611,1806-auerstadt,"EU/UK backer's copy ""1806: Auerstädt""",69.99,49.99,False,False,False,2026-11-21T20:05:40Z
+120643,generation-ship,Retailer Pledge,1,1,False,False,False,2026-11-24T20:05:17Z
 122731,afrikakorpse-41,AfrikaKorpse  '41 Core Box,113.95,79.95,False,False,False,2026-11-21T20:05:40Z
 122749,afrikakorpse-41,Zombie Tango Oscar High Command Bundle,1174.9,899,False,False,False,2026-11-21T20:05:40Z
 123620,ennemis-publics-premieres-extensions,Extension LONGUE VIE A DRAC !,9,9,False,False,False,2026-11-21T20:05:40Z
@@ -126,6 +131,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 128793,afrikakorpse-41,Sand & Sea DELUXE Bundle,371.9,274.95,True,False,False,2026-11-21T20:05:40Z
 128796,afrikakorpse-41,U-Boot Z Deluxe Box,137.95,122.95,False,False,False,2026-11-21T20:05:40Z
 128802,afrikakorpse-41,Zombie Tango Oscar Field Command Bundle,464.9,349,False,False,False,2026-11-21T20:05:40Z
+128859,Watergate-Public-Enemy,WATERGATE - Core-box,30,30,False,False,False,2026-11-24T20:05:17Z
 128905,agoro-road-and-agoro-camp,First backers: Agoro Road,19.99,9,False,False,False,2026-11-21T20:05:40Z
 128906,agoro-road-and-agoro-camp,First backers: both games,45,15,False,False,False,2026-11-21T20:05:40Z
 128917,gunner,GUNNER SUPPORTER,5,5,False,False,False,2026-11-21T20:05:40Z
@@ -152,6 +158,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 129275,panopticon,24H Super Early Bird - Architect Pledge,125,89,False,False,False,2026-11-21T20:05:40Z
 129276,panopticon,72H Early Bird - Architect Pledge,125,89,False,False,False,2026-11-21T20:05:40Z
 129277,panopticon,Architect Pledge,125,99,True,False,False,2026-11-21T20:05:40Z
+129290,Watergate-Public-Enemy,All-in,90,81,True,False,False,2026-11-24T20:05:17Z
 129293,eldfall-chronicles-apocrypha,Core Pledge,129,89,False,False,False,2026-11-21T20:05:40Z
 129296,red-alert-new-world-order,STRIKE COMMAND - 2 Player Multiplayer ALL-IN,557,267,True,False,False,2026-11-21T20:05:40Z
 129297,red-alert-new-world-order,JOINT COMMAND - 4 Player Multiplayer ALL-IN,865,415,False,False,False,2026-11-21T20:05:40Z
@@ -177,6 +184,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 129552,agoro-road-and-agoro-camp,Agoro Camp,39,39,False,False,False,2026-11-21T20:05:40Z
 129553,agoro-road-and-agoro-camp,Early bird: Agoro Camp,49.99,29,False,False,False,2026-11-21T20:05:40Z
 129554,agoro-road-and-agoro-camp,Your character in the Agoro Universe: early bird,350,350,False,False,False,2026-11-21T20:05:40Z
+129595,Watergate-Public-Enemy,Public Enemy - Core Box,35,35,False,False,False,2026-11-24T20:05:17Z
 129598,hagglethorn-hollow-evermaze,Hedge Maze — 70 Unpainted Prints + Hedge Maze STLs,549,549,False,False,True,2026-11-21T20:05:40Z
 129599,hagglethorn-hollow-evermaze,Stone Maze — 46 Unpainted Prints + Stone Maze STLs,649,649,False,False,True,2026-11-21T20:05:40Z
 129600,hagglethorn-hollow-evermaze,Evermaze All-In — 116 Core Unpainted Prints + Bonuses + All STLs,1299,1299,False,False,True,2026-11-21T20:05:40Z
@@ -281,6 +289,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 131188,starheroes,x2 Starter Decks,37.5,37.5,False,False,False,2026-11-21T20:05:40Z
 131197,starheroes,Battle Booster Box,89,85,False,False,False,2026-11-21T20:05:40Z
 131198,starheroes,Eternium Booster Box,149,139,False,False,False,2026-11-21T20:05:40Z
+131203,Watergate-Public-Enemy,FULL GAMEPLAY,65,58.5,False,False,False,2026-11-24T20:05:17Z
 131209,starheroes,x1 Deck & Battle Booster Box,104,95,True,False,False,2026-11-21T20:05:40Z
 131231,croquetalipsisboardgame,Croquetalipsis,10,10,True,False,False,2026-11-21T20:05:40Z
 131243,erune---echoes-of-hollow-woods,EXPANSIONS ONLY,230,174,False,False,False,2026-11-23T10:04:46Z
@@ -313,7 +322,15 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 131943,dust-in-the-wind,Purple Haze  - Gameplay Bundle,265,179,False,False,False,2026-11-21T20:05:40Z
 131974,dice-valley,DICE VALLEY BASIC SET (UK),22.5,15,False,False,False,2026-11-21T20:05:40Z
 131975,dice-valley,DICE VALLEY ALL-IN (UK),35,29.16,False,False,False,2026-11-21T20:05:40Z
+132025,dice-quest,Dice Quest GF Exclusive Edition Bundle,60,55,True,False,False,2026-11-24T20:05:17Z
 132243,thebreach-reprint-hellcoreexpansion,Net-Crawler,386,219,False,False,False,2026-11-21T20:05:40Z
+132258,low-orbit-online,Custom wing logo,12,11,False,False,False,2026-11-24T20:05:17Z
+132310,mindbug-dinopunk,Warlord Pledge (New Deluxe All-In) (UK),99,82.5,False,False,False,2026-11-24T20:05:17Z
+132311,mindbug-dinopunk,Scavenger Pledge (New Content) (UK),48,41,False,False,False,2026-11-24T20:05:17Z
+132312,mindbug-dinopunk,Raider Pledge (New Deluxe Content) (UK),64.5,57.5,False,False,False,2026-11-24T20:05:17Z
+132314,mindbug-dinopunk,Overlord Pledge (All Deluxe Legacy Bundle) (UK),325,249,False,False,False,2026-11-24T20:05:17Z
+132355,dice-quest,Dice Quest: The Tower of the Elephant - GF Exclusive Edition,30,30,False,False,False,2026-11-24T20:05:17Z
+132361,dice-quest,Dice Quest: The Dunwich Horror - GF Exclusive Edition,30,30,False,False,False,2026-11-24T20:05:17Z
 132385,keyforge-online,Glimmer of Hope,20,20,False,False,False,2026-11-23T20:04:42Z
 71502,starheroes,All Four Starter Decks,75,75,False,False,False,2026-11-21T20:05:40Z
 88461,xanathar-cable-guy,Guild Members Pledge,80,80,False,False,False,2026-11-21T20:05:40Z
