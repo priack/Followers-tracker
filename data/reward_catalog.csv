@@ -1,7 +1,7 @@
 product_id,project_url_name,reward_name,price,effective_price,is_featured,is_most_popular,has_limited_stock,updated_at
 102162,starheroes,Immortality,11000,11000,False,False,True,2026-11-26T10:05:28Z
 103641,the-longpack-way---how-to-make-a-board-game,Just A Book,19.99,16.99,False,False,False,2026-11-26T10:05:28Z
-103642,the-longpack-way---how-to-make-a-board-game,All-in premium (Gamefound Special Edition),49.99,49.99,False,False,False,2026-11-26T10:05:28Z
+103642,the-longpack-way---how-to-make-a-board-game,All-in premium (Gamefound Special Edition),74.98,49.99,False,False,False,2026-11-26T20:05:11Z
 104499,dice-quest,Dice Quest: The Tower of the Elephant - Retail Edition,16.5,16.5,False,False,False,2026-11-26T10:05:28Z
 104501,dice-quest,Dice Quest: The Dunwich Horror - Retail Edition,16.5,16.5,False,False,False,2026-11-26T10:05:28Z
 105138,microcosm,Microcosm Base Game,55,55,False,False,False,2026-11-21T20:05:40Z
@@ -12,10 +12,10 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 111207,sunlits-eulogy,Sunlit's Eulogy,72,72,True,False,False,2026-11-26T10:05:28Z
 119041,somnonautas,Somnonautas Digital,18.27,16.35,False,False,False,2026-11-26T10:05:28Z
 119044,somnonautas,Somnautas físico,35.58,33.65,False,False,False,2026-11-26T10:05:28Z
-119053,somnonautas,Pack Soñador Plácido,50,50,False,False,False,2026-11-26T10:05:28Z
-119054,somnonautas,Pack Soñador Lucido,99.04,99.04,True,False,False,2026-11-26T10:05:28Z
-119056,somnonautas,Pack Metasoñador,120.2,120.2,False,False,False,2026-11-26T10:05:28Z
-119057,somnonautas,Pack Somnonauta,151.93,151.93,False,False,False,2026-11-26T10:05:28Z
+119053,somnonautas,Pack Soñador Plácido,76.93,50,False,False,False,2026-11-26T20:05:11Z
+119054,somnonautas,Pack Soñador Lucido,149.23,99.04,True,False,False,2026-11-26T20:05:11Z
+119056,somnonautas,Pack Metasoñador,172.31,120.2,False,False,False,2026-11-26T20:05:11Z
+119057,somnonautas,Pack Somnonauta,207.89,151.93,False,False,False,2026-11-26T20:05:11Z
 119167,generation-ship,Fleet Pledge,71.98,49,True,False,False,2026-11-26T10:05:28Z
 119257,starheroes,Delta Star Hero,279,251,False,False,False,2026-11-26T10:05:28Z
 119258,starheroes,Gamma Star Hero,561,504,False,False,False,2026-11-26T10:05:28Z
@@ -230,6 +230,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 130038,dnowhere,PIGMAN DESIGNER,399,399,False,False,True,2026-11-26T10:05:28Z
 130045,dnowhere,NEON PARTNER,990,990,False,False,True,2026-11-26T10:05:28Z
 130088,panopticon,3x Panopticon Architect + 3x Panopticon Strategist,630,350,False,False,False,2026-11-21T20:05:40Z
+130092,WhoAmI,Steam Game Key,40,20,False,False,False,2026-11-26T20:05:11Z
 130259,keyforge-online,Hallafest (Personalized Archon Buddy),2000,2000,False,False,True,2026-11-26T10:05:28Z
 130260,keyforge-online,Hallafest (Personalized Game Board),2000,2000,False,False,True,2026-11-26T10:05:28Z
 130261,keyforge-online,The Architects,3000,3000,False,False,True,2026-11-26T10:05:28Z
@@ -243,8 +244,8 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 130273,galaxy-unwritten,HEAVY SHIP DESIGNER,8000,8000,False,False,False,2026-11-26T10:05:28Z
 130274,galaxy-unwritten,CAPITAL LEGACY,25000,25000,False,False,False,2026-11-26T10:05:28Z
 130281,keyforge-online,Eternal Appreciation,5,5,False,False,False,2026-11-26T10:05:28Z
-130336,somnonautas,Pack Soñador lúcido para tiendas,220.08,220.08,False,False,False,2026-11-26T10:05:28Z
-130338,somnonautas,Pack Somnautas para tiendas x5,109.4,109.4,False,False,False,2026-11-26T10:05:28Z
+130336,somnonautas,Pack Soñador lúcido para tiendas,346.74,220.08,False,False,False,2026-11-26T20:05:11Z
+130338,somnonautas,Pack Somnautas para tiendas x5,177.9,109.4,False,False,False,2026-11-26T20:05:11Z
 130341,true-wind-the-sailing-sim-where-the-boat-is-computed,Supporter flag in online races,0,0,False,False,False,2026-11-26T10:05:28Z
 130435,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Mistress,66.96,66.96,False,False,False,2026-11-21T20:05:40Z
 130436,terry-pratchetts-discworld-rpg-adventures-in-lancre-and-uberwald,Granny,96.56,96.56,False,False,False,2026-11-21T20:05:40Z
@@ -270,7 +271,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 130570,eldfall-chronicles-apocrypha,Apocrypha All-in,595,379,True,False,False,2026-11-21T20:05:40Z
 130572,eldfall-chronicles-apocrypha,Dungeon-Crawl All-in,1112,720,False,False,False,2026-11-21T20:05:40Z
 130640,dust-in-the-wind,Dust in the Wind - Base Pledge,179,89,False,False,False,2026-11-26T10:05:28Z
-130674,arkane-ermittlungen,All In,203.44,203.44,True,False,False,2026-11-26T10:05:28Z
+130674,arkane-ermittlungen,All In,281.22,203.44,True,False,False,2026-11-26T20:05:11Z
 130675,arkane-ermittlungen,Krimispiel-Bundle,100.84,100.84,False,False,False,2026-11-26T10:05:28Z
 130676,arkane-ermittlungen,Rollenspiel-Bundle,102.8,102.8,False,False,False,2026-11-26T10:05:28Z
 130678,arkane-ermittlungen,Hauptband,42.06,42.06,False,False,False,2026-11-26T10:05:28Z
@@ -309,9 +310,11 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 131563,joe-klipfel-presents-solo-game-of-the-month,4-Game Bundle,70,59,False,False,False,2026-11-26T10:05:28Z
 131564,joe-klipfel-presents-solo-game-of-the-month,All Print-n-Plays,20,15,False,False,False,2026-11-26T10:05:28Z
 131573,joe-klipfel-presents-solo-game-of-the-month,Rome: Fate of an Empire (Deluxe)(Reprint),39,39,False,False,False,2026-11-26T10:05:28Z
+131697,WhoAmI,Identity: Apartment Owner,250,150,True,False,True,2026-11-26T20:05:11Z
 131716,wild-conversations,Digital Deck,10,10,False,False,False,2026-11-21T20:05:40Z
 131753,joe-klipfel-presents-solo-game-of-the-month,All In,100,79,True,False,False,2026-11-26T10:05:28Z
 131761,marco-polo-deluxe-master-set,All Gameplay,160,133,False,False,False,2026-11-26T10:05:28Z
+131791,WhoAmI,Supporter: Resident,30,30,False,False,False,2026-11-26T20:05:11Z
 131803,biozero-tokyo,Full Game (No-Cutting Edition),25,20,False,False,False,2026-11-26T10:05:28Z
 131805,biozero-tokyo,Complete PnP Bundle (Full-Build + No-Cutting Editions),30,25,True,False,False,2026-11-26T10:05:28Z
 131807,biozero-tokyo,BioZero + Iron Quest PnP Game Bundle,65,50,False,False,False,2026-11-26T10:05:28Z
@@ -323,6 +326,7 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 131974,dice-valley,DICE VALLEY BASIC SET (UK),22.5,15,False,False,False,2026-11-26T10:05:28Z
 131975,dice-valley,DICE VALLEY ALL-IN (UK),35,29.16,False,False,False,2026-11-26T10:05:28Z
 132025,dice-quest,Dice Quest GF Exclusive Edition Bundle,60,55,True,False,False,2026-11-26T10:05:28Z
+132062,WhoAmI,Identity: House Owner,500,500,False,False,True,2026-11-26T20:05:11Z
 132243,thebreach-reprint-hellcoreexpansion,Net-Crawler,386,219,False,False,False,2026-11-26T10:05:28Z
 132258,low-orbit-online,Custom wing logo,12,11,False,False,False,2026-11-26T10:05:28Z
 132310,mindbug-dinopunk,Warlord Pledge (New Deluxe All-In + Big Box) (UK),99,82.5,False,False,False,2026-11-26T10:05:28Z
@@ -333,6 +337,9 @@ product_id,project_url_name,reward_name,price,effective_price,is_featured,is_mos
 132361,dice-quest,Dice Quest: The Dunwich Horror - GF Exclusive Edition,30,30,False,False,False,2026-11-26T10:05:28Z
 132385,keyforge-online,Glimmer of Hope,20,20,False,False,False,2026-11-26T10:05:28Z
 132548,mindbug-dinopunk,Mutant Pledge (New Deluxe All-In) (UK),94,74,False,False,False,2026-11-26T10:05:28Z
+132601,WhoAmI,Supporter: Gang Member,60,60,False,False,False,2026-11-26T20:05:11Z
+132602,WhoAmI,Supporter: OG,100,100,False,False,False,2026-11-26T20:05:11Z
+132605,WhoAmI,BOT OS Profile,150,150,False,False,False,2026-11-26T20:05:11Z
 71502,starheroes,All Four Starter Decks,75,75,False,False,False,2026-11-26T10:05:28Z
 88461,xanathar-cable-guy,Guild Members Pledge,80,80,False,False,False,2026-11-26T10:05:28Z
 88477,xanathar-cable-guy,Sylgar's Favourite Pledge,120,120,False,False,False,2026-11-26T10:05:28Z
